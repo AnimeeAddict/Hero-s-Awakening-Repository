@@ -1,5 +1,5 @@
 # Hero-s-Awakening-Repository
-//Have you ever read a “Choose your own adventure” book or played the “Minecraft Story Mode” video game? “Tales from the Borderlands?” “The Wolf Among Us?” No?!  These experiences are all examples of “interactive” stories. In these stories the reader/user has multiple opportunities to influence the ending for better and/or worse. These experiences feature multiple endings as a result and allow multiple paths to reach each ending.
+Have you ever read a “Choose your own adventure” book or played the “Minecraft Story Mode” video game? “Tales from the Borderlands?” “The Wolf Among Us?” No?!  These experiences are all examples of “interactive” stories. In these stories the reader/user has multiple opportunities to influence the ending for better and/or worse. These experiences feature multiple endings as a result and allow multiple paths to reach each ending.
 
 You and a partner are going to create an interactive story (demo here). No, not as graphically complex as a video game, but as an important component of project planning, data manipulation, program state tracking, and problem solving. Yes, each partner needs to substantially contribute to the story and the code.
 
