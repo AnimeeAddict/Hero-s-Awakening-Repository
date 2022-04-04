@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Rise to Another World: Hero's Awakening</title>
 </head>
+
 <body>
     <header>
         <!--Background image here-->
-        <h1>Rise to Another World: Hero's Awakening</h1>
-        <h2>Written by Jade Nguyen and Brandon Xiong</h2>
+        <div class="headerText">
+            <h1 class="titleHeader">Rise to Another World: <br> Hero's Awakening</h1>
+            <h2 class="authors">Written by Jade Nguyen <br> and Brandon Xiong</h2>
+        </div>
     </header>
-    <section class="titleHeading">
-        <h1>Rise to Another World: Hero's Awakening</h1>
-        <h2>Written by Jade Nguyen and Brandon Xiong</h2>
+    <section class="storySection">
+        <h6 id="chapter">Chapter Header</h6>
         <p class="overview">Welcome readers! Our story: 'Rise to Another World: Hero's Awakening'
-            is about a character who returns their home to rest, only to wake up entangled in a 
+            is about a character who returns their home to rest, only to wake up entangled in a
             fantasy world. Within this new world, you will be playing as the main character, exploring
-            and engaging in particular action. As the character, you will heed your fate as an uprising 
+            and engaging in particular action. As the character, you will heed your fate as an uprising
             hero. Any choices you decide to make will branch out and decide your ending.
         </p>
     </section>
-    <section class="container">
-        <button class="enterButton">Create your own fate</button>
+    <section class="container"> 
+        <section class="buttonDesign">
+        <button class="enterButton">
+            <div class="circle"></div>
+            <svg>
+                <filter id="wavy">
+                    <feTurbulence x="0" y="0" baseFrequency="0.009" numOctaves="5" seed="2">
+                        <animate attributeName="baseFrequency" dur="60s" values="0.02;0.005;0.02" repeatCount="indefinite"></animate>
+                    </feTurbulence>
+                </filter>
+            </svg>
+            Create your own fate</button>
+        </section>
         <div id="uiArea">
             <p>input</p>
             <!--Text will be placed here-->
@@ -40,4 +54,5 @@
         </div>
     </section>
 </body>
+
 </html>
