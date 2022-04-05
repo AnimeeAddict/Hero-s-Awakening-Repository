@@ -16,7 +16,10 @@
     <header>
         <!--Background image here-->
         <div class="headerText">
+            <div class="titleCont">
             <h1 class="titleHeader">Rise to Another World: <br> Hero's Awakening</h1>
+            <canvas id="noise" class="noise"></canvas>
+            </div>
             <h2 class="authors">Written by Jade Nguyen <br> and Brandon Xiong</h2>
         </div>
     </header>
@@ -29,19 +32,30 @@
             hero. Any choices you decide to make will branch out and decide your ending.
         </p>
     </section>
-    <section class="container"> 
-        <section class="buttonDesign">
-        <button class="enterButton">
-            <div class="circle"></div>
+    <div class="container">
+        <div class="buttonDesign">
+            
+            <a class="enterButton">
+                <h3 class="buttonText"><span class="buttonTextSpan">Create your fate</span></h3>
+                <svg class="fireEffect">
+                    <filter id="flames">
+                        <feTurbulence id="turblence2" baseFrequency="0.1 0.1" numOctaves="2" seed="3">
+                            <animate attributeName="baseFrequency" dur="10s" values="0.1 0.1;0.12 0.2" repeatCount="indefinite"></animate>
+                        </feTurbulence>
+                        <feDisplacementMap in="SourceGraphic" scale="5"></feDisplacementMap>
+                    </filter>
+                </svg>
+                <div class="circle">
             <svg>
                 <filter id="wavy">
                     <feTurbulence x="0" y="0" baseFrequency="0.009" numOctaves="5" seed="2">
                         <animate attributeName="baseFrequency" dur="60s" values="0.02;0.005;0.02" repeatCount="indefinite"></animate>
                     </feTurbulence>
+                    <feDisplacementMap in="SourceGraphic" scale="30" in2="turbulence"></feDisplacementMap>
                 </filter>
-            </svg>
-            Create your own fate</button>
-        </section>
+            </svg></div>
+        </a>
+    </div>
         <div id="uiArea">
             <p>input</p>
             <!--Text will be placed here-->
@@ -52,7 +66,7 @@
         <div id="startOver">
             <button id="startOverButton" style="display: none;">Start Over</button>
         </div>
-    </section>
+        </div>
 </body>
 
 </html>

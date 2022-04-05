@@ -30,7 +30,7 @@ function uiButton(uiText, decision) {
 }
 
 function developStory(text) {
-    
+    const updatePage = decisions(decisions.length-1);
 }
 
 
