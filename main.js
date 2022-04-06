@@ -3,7 +3,7 @@ window.onload = function(){//Directly checks to ensure JavaScript loads first be
         name: "Name" //The name of the reader/player
     }    
     
-    const story = {//this is the story object
+    const story = {//story cointainer
         prologue: "Under the midnight moon, slumber awaits for me as I return back home to my apartment. \n I rattle the key to which unlocks my front door out of my pocket and gently insert it into the keyhole. As I opened the door, the lights blinkered on with my AI system welcoming me home." ,
         prologue: "Welcome home " + player.name + ". The time is currently 12:12AM, 47 degrees fahrenheit." ,
         prologue: "In response, I say, 'Yes, yes. Thank you Mari. I am heading to bed now. See you tomorrow.' I closed laid in bed, filled with exhaustion, and closed my eyes. I wondered what tomorrow would bring to me."
@@ -18,6 +18,8 @@ var startOverBtn = document.getElementById('startOverButton');
 var interactArea = document.getElementById('container');
 var uiButtons = document.getElementById('uiButtons');
 
+
+//Advise from using innerHTML due to XSS attacks but for this project it should be fine
 function uiButton(uiText, decision) {
     var button = document.createElement('button'); //creates a button
     button.appendChild(button);
@@ -29,10 +31,32 @@ function uiButton(uiText, decision) {
     })
 }
 
-function developStory(text) {
-    const updatePage = decisions(decisions.length-1);
+function storyPush(text) {
+    interactArea.innerHTML = text;
 }
 
+function developStory(text) {
+    let updatePage = decisions(decisions.length-1);
+    interactArea.innerHTML = ''; //play area will empty
+    uiButtons.innerHTML = ''; //The button areas will empty and be updated
+    for (let choice of decisions) { //This line of code is referenced by Andrew Burca and Zachary Her
+        storyPush(story[choice].text) //When a button is clicked, screen will update
+    }
+    for (let choice of story[pageNow].options) { //creates variables utilized for the choices and user interactions
+        uiButton(choice[1], choice[0]); //button creations
+    }
+}
+
+startOverBtn.addEventListener('click', function() { //screen will be reloaded
+    location.reload();
+})
+
+startOverBtn.style.display = 'none'; //restart button hidden
+
+enterBtn.addEventListener('click', function() {
+    developStory(story.prologue.text); //story will run
+    startOverBtn.style.display = '';
+})
 
 a1: {
     text: `I picked up the torch and dagger and proceeded down the stairs to the gate. The gate had no keyhole or any entry latch, but was held only by a rusted and old chain. Using the dagger handle, I budged the chain with a quick strike and it broke, scattering into dust. I opened the gate and proceeded cautiously.`
