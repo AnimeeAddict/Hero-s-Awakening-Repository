@@ -4,20 +4,41 @@ window.onload = function(){//Directly checks to ensure JavaScript loads first be
     }    
     
     const story = {//story cointainer
-        prologue: "Under the midnight moon, slumber awaits for me as I return back home to my apartment. \n I rattle the key to which unlocks my front door out of my pocket and gently insert it into the keyhole. As I opened the door, the lights blinkered on with my AI system welcoming me home." ,
-        prologue: "Welcome home " + player.name + ". The time is currently 12:12AM, 47 degrees fahrenheit." ,
-        prologue: "In response, I say, 'Yes, yes. Thank you Mari. I am heading to bed now. See you tomorrow.' I closed laid in bed, filled with exhaustion, and closed my eyes. I wondered what tomorrow would bring to me."
+        prologue: {
+            text: "Under the midnight moon, slumber awaits for me as I return back home to my apartment. \n I rattle the key to which unlocks my front door out of my pocket and gently insert it into the keyhole. As I opened the door, the lights blinkered on with my AI system welcoming me home." ,
+        text: "Welcome home " + player.name + ". The time is currently 12:12AM, 47 degrees fahrenheit." ,
+        text: "In response, I say, 'Yes, yes. Thank you Mari. I am heading to bed now. See you tomorrow.' I closed laid in bed, filled with exhaustion, and closed my eyes. I wondered what tomorrow would bring to me."
+        }
+        
 }
 
 //Variables and function algorithm
 const decisions = ['prologue']; //this holds all variables of text and choices
 
 //UI variables
-var enterBtn = document.getElementById('enterButton');
-var startOverBtn = document.getElementById('startOverButton');
-var interactArea = document.getElementById('container');
-var uiButtons = document.getElementById('uiButtons');
+var enterBtn = document.getElementById('enterButton'); //Enter button
+var startOverBtn = document.getElementById('startOverButton'); //Restart button
+var interactArea = document.getElementById('uiArea'); //Area where users will interact
+var uiButtons = document.getElementById('uiButtons'); //Buttons for users
 
+let header = document.getElementsByClassName('titleCont')[0].cloneNode();
+document.getElementsByClassName('main-header-content')[0].appendChild(header);
+let line = document.createElement('div'); line.className = 'line';
+document.getElementsByClassName('main-header-content')[0].appendChild('line');
+
+let tl = new TimelineMax({repeat:-1});
+
+for (var i; i = 50; i--) {
+    tl.to(titleCont, R(0.03, 0.17), {opacity:R(0, 1), y:R(-1.5, 1.5)})
+}
+
+tl.to(line, tl.duration()/2), {
+    opacity:R(0.1, 1), x:R(0, 300), ease:RoughEase.ease.config({strength:0.5, points:10, randomize:true, taper: "none",}), repeat: 1, yoyo: true}, 0);
+}
+
+function R(max,min) {
+    return Math.random()*(max-min)+min
+};
 
 //Advise from using innerHTML due to XSS attacks but for this project it should be fine
 function uiButton(uiText, decision) {
@@ -49,14 +70,9 @@ function developStory(text) {
 
 startOverBtn.addEventListener('click', function() { //screen will be reloaded
     location.reload();
-})
+});
 
 startOverBtn.style.display = 'none'; //restart button hidden
-
-enterBtn.addEventListener('click', function() {
-    developStory(story.prologue.text); //story will run
-    startOverBtn.style.display = '';
-})
 
 a1: {
     text: `I picked up the torch and dagger and proceeded down the stairs to the gate. The gate had no keyhole or any entry latch, but was held only by a rusted and old chain. Using the dagger handle, I budged the chain with a quick strike and it broke, scattering into dust. I opened the gate and proceeded cautiously.`
@@ -92,6 +108,14 @@ c2: {
 // let ;
 
 // function 
+
+
+enterBtn.addEventListener("click", function() {
+    developStory(story.prologue.text); //story will run
+    startOverBtn.style.display = '';
+})
+
+
 
 
 
