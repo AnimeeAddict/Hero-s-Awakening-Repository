@@ -24,7 +24,7 @@ var uiButtons = document.getElementById('uiButtons'); //Buttons for users
 let header = document.getElementsByClassName('titleCont')[0].cloneNode();
 document.getElementsByClassName('main-header-content')[0].appendChild(header);
 let line = document.createElement('div'); line.className = 'line';
-document.getElementsByClassName('main-header-content')[0].appendChild('line');
+document.getElementsByClassName('main-header-content')[0].appendChild(line);
 
 let tl = new TimelineMax({repeat:-1});
 
@@ -33,7 +33,7 @@ for (var i; i = 50; i--) {
 }
 
 tl.to(line, tl.duration()/2), {
-    opacity:R(0.1, 1), x:R(0, 300), ease:RoughEase.ease.config({strength:0.5, points:10, randomize:true, taper: "none",}), repeat: 1, yoyo: true}, 0);
+    opacity:R(0.1, 1), x:R(0, 300), ease:RoughEase.ease.config({strength:0.5, points:10, randomize:true, taper: "none",}), repeat: 1, yoyo: true}, 0;
 }
 
 function R(max,min) {
@@ -43,8 +43,8 @@ function R(max,min) {
 //Advise from using innerHTML due to XSS attacks but for this project it should be fine
 function uiButton(uiText, decision) {
     var button = document.createElement('button'); //creates a button
-    button.appendChild(button);
-    uiButtons.appendChild(button);
+    button.innerHTML(button);
+    uiButtons.innerHTML(button);
 
     button.addEventListener("click", function () { //When the button is clicked, this action will occur
         decisions.push(choice);
