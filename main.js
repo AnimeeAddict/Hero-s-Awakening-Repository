@@ -37,7 +37,7 @@ function uiButton(uiText, decision) {
 }
 
 function developStory(text) {
-    let updatePage = decisions[decisions.length - 1];
+    const updatePage = decisions[decisions.length - 1];
     interactArea.innerHTML = ''; //play area will empty
     uiButtons.innerHTML = ''; //The button areas will empty and be updated
     

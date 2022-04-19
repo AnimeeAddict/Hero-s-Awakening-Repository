@@ -172,6 +172,11 @@ h2 {
     filter: url(#flames);
 }
 
+a {
+    display: inline-block;
+    overflow: hidden;
+}
+
 .fireEffect {
     width: 0;
     height: 0;
