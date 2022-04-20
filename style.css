@@ -132,7 +132,7 @@ h2 {
     font-size: 50%;
 }
 
-.overview {
+#overview {
     font-size: 50%;
     overflow: hidden;
 }
@@ -183,8 +183,17 @@ a {
 }
 
 #uiArea {
-    font-size: 20px;
+    font-size: 35px;
     padding: 50px;
+}
+
+#uiButtons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    width: 100px;
 }
 
 .circle {
