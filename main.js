@@ -10,13 +10,12 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         continue: {
-            text: "Mari: 'Welcome home " + 'Melphios' + '. The time is currently 12:12AM, 47 degrees fahrenheit.'
-                + '\n' + "In response, I say, 'Yes yes. Thank you Mari. I am heading to bed now. See you tomorrow.' I closed my eyes, waiting to see what tomororow will bring for me.",
+            text: `Mari: "Welcome home Melphios. The time is currently 12:12AM, 47 degrees fahrenheit." <br><br> "In response, I say, "Yes yes. Thank you Mari. I am heading to bed now. See you tomorrow." I closed my eyes, waiting to see what tomororow will bring for me.`,
             options: [['narration', 'Continue']]
         },
 
         narration: {
-            text: "My name is " + player.name + ", I am a 28 year old game designer. I'm not very much of a sport or athletic person but I am considerably average I think. I received a monthly income of money as a pension due to my absent parents ever since the beginning of elementary school and grew up only with my grandfather who would tell me wild tales about how he lived within another world. I didn't believe him as I thought it was pure madness. Soon after he passed away, I found myself imbued within an empty black hole of nothing my whole high school years. However, I am mainly a shut-in gamer and to pass the time I played video games to escape that emptiness. I really love to play video games, especially mmorpgs. The only time I am happy is when I'm playing games. If only I could enter another world that is easier than this life.",
+            text: `My name is Melphios. I am a 28 year old game designer. I'm not very much of a sport or athletic person but I am considerably average I think. I received a monthly income of money as a pension due to my absent parents ever since the beginning of elementary school and grew up only with my grandfather who would tell me wild tales about how he lived within another world. I didn't believe him as I thought it was pure madness. Soon after he passed away, I found myself imbued within an empty black hole of nothing my whole high school years. However, I am mainly a shut-in gamer and to pass the time I played video games to escape that emptiness. I really love to play video games, especially mmorpgs. The only time I am happy is when I'm playing games. If only I could enter another world that is easier than this life.`,
             options: [['sleep', 'Go to sleep']]
         },
 
@@ -26,7 +25,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
         
         wakeUp: {
-            text: "I woke up amidst my slumber after hearing a combination of what seems to be a man and woman's voice. It sounded mildly distorted but I was able to make up the words." + "\n" + "'Here ye enter to the new world. I have summoned you here to test your resolve. Come forth, the way back is shut. But return awaits you if you defeat me.'" + "\n" + "Hearing this passage from the anonymous voice gave me the absolute chills. I questioned whether or not it had been my imagination or not. Nonetheless, I need to find a way back home.",
+            text: "I woke up amidst my slumber after hearing a combination of what seems to be a man and woman's voice. It sounded mildly distorted but I was able to make up the words." + "<br><br>" + "'Here ye enter to the new world. I have summoned you here to test your resolve. Come forth, the way back is shut. But return awaits you if you defeat me.'" + "<br><br>" + "Hearing this passage from the anonymous voice gave me the absolute chills. I questioned whether or not it had been my imagination or not. Nonetheless, I need to find a way back home.",
             options: [[]]
         },
 
@@ -60,7 +59,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
             options: [[`d1`, `Bring My Arms Up to Guard`], [`d2`, `Roll Out of the Attack Range`]]
         },
         c2: {
-            text: `I sidestepped towards the left in my attempt to dodge. \n *Shluk!!* \n Realizing what had happened, the blade had sunken through me. \n Game Over...`
+            text: `I sidestepped towards the left in my attempt to dodge. <br> *Shluk!!* <br> Realizing what had happened, the blade had sunken through me. <br> Game Over...`
         },
         c3: {
             text: `I sidestepped towards the right in my attempt to dodge. Successfully dodging, the Goblin Knight turned towards me, charging what looked like to be a magic attack. The Goblin Knight's blade glistened instantly in bright purple. Seeing how that couldn't be good, I prepared myself to dodge again or perhaps counterattack. The Goblin Knight instantaneously dashed towards me. Barely reacting to the blade, I. . .`,
@@ -68,7 +67,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         c4: {
-            text: `I lunge forward and swing through with my dagger in an attempt to counterattack. \n *Twaang!* \n The Goblin Knight's blade bounces back. I lauch forward a series of three horizontal slashes. \n *Slash slash slash* \n I land all three attacks, severely damaging the Goblin Knight on its left arm. The Goblin Knight lets out a shout, tremendously filling the air with heavy pressure around me. Sweat starts to drip more frequently as I lift my blade up for another attack. The Goblin Knight suddenly slams its foot into the ground, unleashing a disrupting wave of rubble at me. I . . .`,
+            text: `I lunge forward and swing through with my dagger in an attempt to counterattack. <br> *Twaang!* <br> The Goblin Knight's blade bounces back. I lauch forward a series of three horizontal slashes. <br> *Slash slash slash* <br> I land all three attacks, severely damaging the Goblin Knight on its left arm. The Goblin Knight lets out a shout, tremendously filling the air with heavy pressure around me. Sweat starts to drip more frequently as I lift my blade up for another attack. The Goblin Knight suddenly slams its foot into the ground, unleashing a disrupting wave of rubble at me. I . . .`,
             options: [[`d1`, `Bring My Arms Up to Guard`], [`d2`, `Roll Out of the Attack Range`]]
         },
 
@@ -88,7 +87,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         c8: {
-            text: ` I sidestepped towards the right in my attempt to dodge. Successfully dodging, the Goblin Knight turned towards me, charging what looked like to be a magic attack. Its blade began glowing with bright red. The Goblin Knight instantaneously dashed towards me. Barely reacting to the blade, I catch the blade in between my palms. Looking at how my hands clasped the blade, I could feel the heat radiating off it by the skin of my forehead. The blade began searing my hands and my palms burnt. Groaning in pain, 'Agghhh', I couldn't let go otherwise it would mean the end of me. \n I hear a voice instructing me to select a rune for my class but if I try to move my hands then the blade will slice me. Gambling my life on the runes, I try to grab it. \n *Ssshink* \n Game Over`
+            text: ` I sidestepped towards the right in my attempt to dodge. Successfully dodging, the Goblin Knight turned towards me, charging what looked like to be a magic attack. Its blade began glowing with bright red. The Goblin Knight instantaneously dashed towards me. Barely reacting to the blade, I catch the blade in between my palms. Looking at how my hands clasped the blade, I could feel the heat radiating off it by the skin of my forehead. The blade began searing my hands and my palms burnt. Groaning in pain, 'Agghhh', I couldn't let go otherwise it would mean the end of me. <br> I hear a voice instructing me to select a rune for my class but if I try to move my hands then the blade will slice me. Gambling my life on the runes, I try to grab it. <br> *Ssshink* <br> Game Over`
         },
 
         d1: {
@@ -107,12 +106,12 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         d4: {
-            text: `Raise up the dagger to block the attack. The Goblin Knight's imbued blade blows me three meters away with a mild explosion. The impact from blocking and the blades hitting must've unleashed its magic. \n Trying to recover back onto my feet, my arm is slightly burnt and stings with pain. My hand starts to shake while still clutching onto my dagger. \n Getting up on my feet, I hear a voice speak out to me.`,
+            text: `Raise up the dagger to block the attack. The Goblin Knight's imbued blade blows me three meters away with a mild explosion. The impact from blocking and the blades hitting must've unleashed its magic. <br> Trying to recover back onto my feet, my arm is slightly burnt and stings with pain. My hand starts to shake while still clutching onto my dagger. <br> Getting up on my feet, I hear a voice speak out to me.`,
             options: [[`e1`, `Continue`]]
         },
 
         d5: {
-            text: `I throw my hands up and catch the blade but the Goblin Knight overpowers me and slashes me regardless. \n Game Over`,
+            text: `I throw my hands up and catch the blade but the Goblin Knight overpowers me and slashes me regardless. <br> Game Over`,
             options: [[`e1`, `Continue`]]
         },
 
@@ -156,7 +155,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m4: {
-            text: `I decided to stay in the dungeon to explore anything else that had appeared. I walk deeper into the room and see another door but it seems like it is closed. I get curious and decide to open the door. Inside I see a table in the middle of the room. I walk closer and see a brewing potion set. Right in front of it, I see a potion with the label saying, "Immortality Potion". Believing it was real, I drank it and immediately felt nauseous. I looked up and everything started blurring out. I close my eyes and feel my body fall to the ground. \n Game Over`
+            text: `I decided to stay in the dungeon to explore anything else that had appeared. I walk deeper into the room and see another door but it seems like it is closed. I get curious and decide to open the door. Inside I see a table in the middle of the room. I walk closer and see a brewing potion set. Right in front of it, I see a potion with the label saying, "Immortality Potion". Believing it was real, I drank it and immediately felt nauseous. I looked up and everything started blurring out. I close my eyes and feel my body fall to the ground. <br> Game Over`
         },
 
         m5: {
@@ -165,31 +164,31 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m6: {
-            text: `I decided to take the middle path, bearing in mind what the mysterious voice had told me. Walking down the path, I approached a river and rested upon the ledge of flat grass where the river calmly streamed by. \n "I see you have made it to us properly. . . hero. I'm down here floating by you if you didn't notice." \n I looked downward towards the voice only to see a pink-pray mantis on top of a tortoise. The two companions explain to me, declaring that they will train me to be the fated hero I am to be.`,
+            text: `I decided to take the middle path, bearing in mind what the mysterious voice had told me. Walking down the path, I approached a river and rested upon the ledge of flat grass where the river calmly streamed by. <br> "I see you have made it to us properly. . . hero. I'm down here floating by you if you didn't notice." <br> I looked downward towards the voice only to see a pink-pray mantis on top of a tortoise. The two companions explain to me, declaring that they will train me to be the fated hero I am to be.`,
             options: [[`m15`, `Accept`], [`m16`, `Decline`], [`m17`, `Attack Them`]]
         },
 
         m7: {
-            text: `I decided to take the right path. I walk down and see a river but it was a darker color then I remember. It looks like more of a swamp. I walk closer towards it and look down at the river. The river looks very murky. I reached out my hand in an attempt to summon the female voice from earlier. However, you see a large shadow appear over you and catch you off guard. You turn and quickly try to summon an element but it's already too late. The monster quickly reaches for you and kills you. \n Game Over`,
+            text: `I decided to take the right path. I walk down and see a river but it was a darker color then I remember. It looks like more of a swamp. I walk closer towards it and look down at the river. The river looks very murky. I reached out my hand in an attempt to summon the female voice from earlier. However, you see a large shadow appear over you and catch you off guard. You turn and quickly try to summon an element but it's already too late. The monster quickly reaches for you and kills you. <br> Game Over`,
         },
 
         m8: {
-            text: `I decided to explore the town and see if there is anything useful there. I look around and see there is a building where they see food. \n *Growl* \n "Mmm I could really go for some food right now." I walk over and see what food they are selling there. After walking closer, I noticed there was freshly baked bread and freshly picked apples.`,
+            text: `I decided to explore the town and see if there is anything useful there. I look around and see there is a building where they see food. <br> *Growl* <br> "Mmm I could really go for some food right now." I walk over and see what food they are selling there. After walking closer, I noticed there was freshly baked bread and freshly picked apples.`,
             options: [[`m10`, `Ask for Food`], [`m11`, `Steal Their Food`]]
         },
 
         m9: {
-            text: `I decided to not go into town since appearances can be deceiving. Walking down the path, I approached a river and rested upon the ledge of flat grass where the river calmly streamed by. \n "I see you have made it to us properly. . . hero. I'm down here floating by you if you didn't notice." \n I looked downward towards the voice only to see a pink-pray mantis on top of a tortoise. The two companions explain to me, declaring that they will train me to be the fated hero I am to be.`,
+            text: `I decided to not go into town since appearances can be deceiving. Walking down the path, I approached a river and rested upon the ledge of flat grass where the river calmly streamed by. <br> "I see you have made it to us properly. . . hero. I'm down here floating by you if you didn't notice." <br> I looked downward towards the voice only to see a pink-pray mantis on top of a tortoise. The two companions explain to me, declaring that they will train me to be the fated hero I am to be.`,
             options: [[`m15`, `Accept`], [`m16`, `Decline`], [`m17`, `Attack Them`]]
         },
 
         m10: {
-            text: `I decided to walk in and ask for food. Opening the door, the owner of the store greets me. I ask politely, "Hello there sir, I don't really have money right now but have gone through quite a battle. Could you spare some food?" \n They replied, "Hmm you do look pretty wounded. I can spare you some scraps from last week that never got sold. They are going to get old pretty soon. Here take some and also take some Sugmas (the currently in this world). You will need some if you want to continue going around the village." \n My face lights up, "Thank you so much! I appreciate that so much. I don't know how I will repay you." I take the food and money and walk towards the exit door. Turning around, I thank him again by lowering my head and walking out.`,
+            text: `I decided to walk in and ask for food. Opening the door, the owner of the store greets me. I ask politely, "Hello there sir, I don't really have money right now but have gone through quite a battle. Could you spare some food?" <br> They replied, "Hmm you do look pretty wounded. I can spare you some scraps from last week that never got sold. They are going to get old pretty soon. Here take some and also take some Sugmas (the currently in this world). You will need some if you want to continue going around the village." <br> My face lights up, "Thank you so much! I appreciate that so much. I don't know how I will repay you." I take the food and money and walk towards the exit door. Turning around, I thank him again by lowering my head and walking out.`,
             options: [[`m12`, `Exit the Store`]]
         },
 
         m11: {
-            text: `I notice the window is open and the food is displayed which can be easily swiped. I quickly walk up trying to avoid being seen. Once I take the food I quickly take off and while running away, I see a villager who saw what I did. They shout making everyone notice that I am stealing food. While running as fast as I can, I summon a magical portal to help me escape. In an attempt to escape I try to teleport myself to my room wanting to go home. Unfortunately, a car zooms out and crashes into me. \n Game Over`,
+            text: `I notice the window is open and the food is displayed which can be easily swiped. I quickly walk up trying to avoid being seen. Once I take the food I quickly take off and while running away, I see a villager who saw what I did. They shout making everyone notice that I am stealing food. While running as fast as I can, I summon a magical portal to help me escape. In an attempt to escape I try to teleport myself to my room wanting to go home. Unfortunately, a car zooms out and crashes into me. <br> Game Over`,
         },
 
         m12: {
@@ -198,24 +197,24 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m13: {
-            text: `I decided to explore the clothes store. I walk and the store owner quickly gets up and greets me. \n "Hello there. Nice to meet you. Are you looking for anything specific?" \n "No no. I just want some new clothes for me to travel in." \n "Ahh yes. I may have the thing you are looking for." She walks in the storage room of the store and walks back out. She hands me a really nice set of clothes. I really like it since it seems to be really comfortable and nicely styled. I decided to take and use the Sugmas I got earlier to pay. I quickly change into them and she thanks me as I exit out the store. I decide this is enough and I can finally walk back to the path. `,
+            text: `I decided to explore the clothes store. I walk and the store owner quickly gets up and greets me. <br> "Hello there. Nice to meet you. Are you looking for anything specific?" <br> "No no. I just want some new clothes for me to travel in." <br> "Ahh yes. I may have the thing you are looking for." She walks in the storage room of the store and walks back out. She hands me a really nice set of clothes. I really like it since it seems to be really comfortable and nicely styled. I decided to take and use the Sugmas I got earlier to pay. I quickly change into them and she thanks me as I exit out the store. I decide this is enough and I can finally walk back to the path. `,
             options: [[`m14`, `Go Back to the Path`]]
         },
 
         m14: {
-            text: `You decide to leave the town and continue down the path. I decided to not go into town since appearances can be deceiving. Walking down the path, I approached a river and rested upon the ledge of flat grass where the river calmly streamed by. \n "I see you have made it to us properly. . . hero. I'm down here floating by you if you didn't notice." \n I looked downward towards the voice only to see a pink-pray mantis on top of a tortoise. The two companions explain to me, declaring that they will train me to be the fated hero I am to be.`,
+            text: `You decide to leave the town and continue down the path. I decided to not go into town since appearances can be deceiving. Walking down the path, I approached a river and rested upon the ledge of flat grass where the river calmly streamed by. <br> "I see you have made it to us properly. . . hero. I'm down here floating by you if you didn't notice." <br> I looked downward towards the voice only to see a pink-pray mantis on top of a tortoise. The two companions explain to me, declaring that they will train me to be the fated hero I am to be.`,
             options: [[`m15`, `Accept`], [`m16`, `Decline`], [`m17`, `Attack Them`]]
         },
 
         m15: {
-            text: `Hearing the two creatures out, I figured that somehow they may be right. Within my gut, my instinctual thought told me, perhaps I was meant to be the hero they are talking about. Since the opportunity of them arriving here now, it must mean they are meant to empower me. If I can save this world being the 'hero' they proclaim, I can find a way back home. They began honing more details and explaining to me the Divine Goddess that has been eradicating the world they know of. \n "I accept your teachings. Lend me your strength to know how I can defeat this Divine Goddess." I said. \n Responding back to me, both mentors told me, "Pass our test and we will give you our strength. You can use magic right? Then it should be as natural as breathing when you obtain it. The orb that you absorbed, its unknown power flows within you." \n Questioning them, I asked, "What test?" \n In coordination as I said that, a beast of sort emerged from the river, creating a strong impact in the ground, shaking it and distorting the flow of the wind. Slightly grinning at the beast, it transfigured into a dragon as its scales began lighting up, flames radiating off of it and becoming vividly more clear to my eyes. \n 
-    "I am Astreus Bolg. As the Divine Goddess seeks, I will destroy you!" \n 
+            text: `Hearing the two creatures out, I figured that somehow they may be right. Within my gut, my instinctual thought told me, perhaps I was meant to be the hero they are talking about. Since the opportunity of them arriving here now, it must mean they are meant to empower me. If I can save this world being the 'hero' they proclaim, I can find a way back home. They began honing more details and explaining to me the Divine Goddess that has been eradicating the world they know of. <br> "I accept your teachings. Lend me your strength to know how I can defeat this Divine Goddess." I said. <br> Responding back to me, both mentors told me, "Pass our test and we will give you our strength. You can use magic right? Then it should be as natural as breathing when you obtain it. The orb that you absorbed, its unknown power flows within you." <br> Questioning them, I asked, "What test?" <br> In coordination as I said that, a beast of sort emerged from the river, creating a strong impact in the ground, shaking it and distorting the flow of the wind. Slightly grinning at the beast, it transfigured into a dragon as its scales began lighting up, flames radiating off of it and becoming vividly more clear to my eyes. <br> 
+    "I am Astreus Bolg. As the Divine Goddess seeks, I will destroy you!" <br> 
     I put my hood on from my cloak, and prepared to attack.`,
             options: [[`m27`, `Thrust a Spear of Lightning`], [`m26`, `Launch a Bolt of Water`], [`m23`, `Push an Ice Shard`], [`m24`, `Sling a Great Fireball`]]
         },
 
         m16: {
-            text: `After politely hearing the two out, I stated that I did not want to be the hero. I insisted I was only trying to find a way back to my home world. Turning around, I venture out into the woods seeking for unknown answers. By nightfall, I set up a shelter to camp for the night. Around midnight, I hear a giant collapse and thud several miles away from my camp. Dashing out from my shelter using minimal magic to enhance my speed, I come to a stop. In front of my eyes is a woman with glazed and crumbly skin shining as bright as moonlight. She catches sight of me, furiously gesturing a face of rage. \n "How dare you look at me, you inferior creature. I am the Moon Princess, submit to treason!" \n She draws a large greatsword with magic and launches it directly at me.`,
+            text: `After politely hearing the two out, I stated that I did not want to be the hero. I insisted I was only trying to find a way back to my home world. Turning around, I venture out into the woods seeking for unknown answers. By nightfall, I set up a shelter to camp for the night. Around midnight, I hear a giant collapse and thud several miles away from my camp. Dashing out from my shelter using minimal magic to enhance my speed, I come to a stop. In front of my eyes is a woman with glazed and crumbly skin shining as bright as moonlight. She catches sight of me, furiously gesturing a face of rage. <br> "How dare you look at me, you inferior creature. I am the Moon Princess, submit to treason!" <br> She draws a large greatsword with magic and launches it directly at me.`,
             options: [[`m20`, `Absorb It Using Dark Magic`], [`m21`, `Use a Light Magic Blast`]]
         },
 
@@ -225,11 +224,11 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m18: {
-            text: `Casting the protective spell, it surrounds my body, however, it is futile and the prey-mantis's sharp precision pierces through and strikes your heart. \n Game Over`
+            text: `Casting the protective spell, it surrounds my body, however, it is futile and the prey-mantis's sharp precision pierces through and strikes your heart. <br> Game Over`
         },
 
         m19: {
-            text: `I unleashed a full on magical attack, which scales out and flashes from my hands. With no control over my magic, all elements of fire, earth, wind, water, light, shadow, and matter combust in a spiral flash, slowly disintegrating the area along with myself. With one last look as you collapse to the floor feeling your essence turn to dust, the prey-mantis and tortoise vividly crumble to dust. You defeated them. \n Special \n G̸a̴m̴e̷ ̸O̶v̷e̴r̴!̶ ̴T̶h̶e̴ ̴L̷a̷s̴t̶ ̶L̶a̶u̵g̷h̵`
+            text: `I unleashed a full on magical attack, which scales out and flashes from my hands. With no control over my magic, all elements of fire, earth, wind, water, light, shadow, and matter combust in a spiral flash, slowly disintegrating the area along with myself. With one last look as you collapse to the floor feeling your essence turn to dust, the prey-mantis and tortoise vividly crumble to dust. You defeated them. <br> Special <br> G̸a̴m̴e̷ ̸O̶v̷e̴r̴!̶ ̴T̶h̶e̴ ̴L̷a̷s̴t̶ ̶L̶a̶u̵g̷h̵`
         },
 
 
@@ -244,18 +243,18 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m22: {
-            text: `I try to stand on my feet, but my head is discombobulated slightly and the strength from my fingers dissipates. With a blink of an eye, I witness a silent slash cut through the Moon Princess and blink again to see myself on the back of a shell. Feeling my consciousness fade, an orb from the Moon Princess streams into my body before I faint. Not knowing how long I have been unconscious, I hear a voice speak out to me. \n "Wake up hero. Your fate is near. Come find me soon and our battle will be marvelous."`,
+            text: `I try to stand on my feet, but my head is discombobulated slightly and the strength from my fingers dissipates. With a blink of an eye, I witness a silent slash cut through the Moon Princess and blink again to see myself on the back of a shell. Feeling my consciousness fade, an orb from the Moon Princess streams into my body before I faint. Not knowing how long I have been unconscious, I hear a voice speak out to me. <br> "Wake up hero. Your fate is near. Come find me soon and our battle will be marvelous."`,
             options: [[`m23`, `Wake Up`]]
         },
 
         m23: {
             text: "I awoke to find myself completely bandaged on my head and arm near a campfire. Slightly wincing in fatigue, the injuries seemed to have healed almost instantly as I felt only a little pain. I turned my head and left, noticing a small movement." +
-                "\n" + "'I see you have woken up, hero.' The pink-pray mantis spoke to me emerging from the shadows" +
-                "\n" + "In response, I said, 'Why do you keep calling me 'hero'? I am just an ordinary person trying to find my way home."
-                + "\n" + "A branch swings down and the tortoise slides down near the mantis's side. 'Because it is your destiny! It is your destiny to become the hero of this ill-fated world dreaded by that so called 'Divine Goddess'!" +
-                "\n" + "Following up from what the toirtoise said, the mantis explains, 'The Divine Goddess he is referring to, is the one who brought you here. Perhaps if you seek answers to go back home, she can give it to you. But be wary, she carries a foul omen and only seeks power. Should it come to the point you defeat her, you will return home." +
-                "\n" + "In a quiet moment of silence, I knelt down, recollecting my thoughts and emotions. If this 'Divine Goddess' hadn't brought me here, I wouldn't have had to struggle fighting for my life and finding a way home. Even with all this power I had, I wouldn't have needed to use it had I not been summoned here. I distinctly let out a face of disgust and annoyance. I let out a shout to release my frustration, lashing a lunar fireball towards the open sky which immediately burned the trees and caused it to petrify within fractions of a second. Taking a deep breathe, I resumed speaking. 'Tell me where this Divine Goddess is."
-                + "\n" + "The mantis and tortoise both responded, 'Travel west, you will come to a stretched valley where half the land is decimated and the other half is flourished full of green. We thank you hero. Take this dragon orb as a gift as well. It's name is Astreus Bolg.' In the mere moments after they said this to me, they faded into spirals of magic, flowing around my feet and up to my head, slowly sinking into my body. As it naturally came to me, I gained the mantis's offensive abilities and the tortoise's defensive magic which will aid me. Moving forward, I traveled west quickly, using spatial magic to traverse quickly. I approached the valley and land they described to me. Seeing I was in the right place, I ventured continuously down the straight path the border depicted between life and barren land. Coming across to a desolate and ruined gate with no doors or other side, chunks of it had broken off but remained intact still. Etched into one side of the gate, it read, 'forbidden port. . .'",
+                "<br>" + "'I see you have woken up, hero.' The pink-pray mantis spoke to me emerging from the shadows" +
+                "<br>" + "In response, I said, 'Why do you keep calling me 'hero'? I am just an ordinary person trying to find my way home."
+                + "<br>" + "A branch swings down and the tortoise slides down near the mantis's side. 'Because it is your destiny! It is your destiny to become the hero of this ill-fated world dreaded by that so called 'Divine Goddess'!" +
+                "<br>" + "Following up from what the toirtoise said, the mantis explains, 'The Divine Goddess he is referring to, is the one who brought you here. Perhaps if you seek answers to go back home, she can give it to you. But be wary, she carries a foul omen and only seeks power. Should it come to the point you defeat her, you will return home." +
+                "<br>" + "In a quiet moment of silence, I knelt down, recollecting my thoughts and emotions. If this 'Divine Goddess' hadn't brought me here, I wouldn't have had to struggle fighting for my life and finding a way home. Even with all this power I had, I wouldn't have needed to use it had I not been summoned here. I distinctly let out a face of disgust and annoyance. I let out a shout to release my frustration, lashing a lunar fireball towards the open sky which immediately burned the trees and caused it to petrify within fractions of a second. Taking a deep breathe, I resumed speaking. 'Tell me where this Divine Goddess is."
+                + "<br>" + "The mantis and tortoise both responded, 'Travel west, you will come to a stretched valley where half the land is decimated and the other half is flourished full of green. We thank you hero. Take this dragon orb as a gift as well. It's name is Astreus Bolg.' In the mere moments after they said this to me, they faded into spirals of magic, flowing around my feet and up to my head, slowly sinking into my body. As it naturally came to me, I gained the mantis's offensive abilities and the tortoise's defensive magic which will aid me. Moving forward, I traveled west quickly, using spatial magic to traverse quickly. I approached the valley and land they described to me. Seeing I was in the right place, I ventured continuously down the straight path the border depicted between life and barren land. Coming across to a desolate and ruined gate with no doors or other side, chunks of it had broken off but remained intact still. Etched into one side of the gate, it read, 'forbidden port. . .'",
             options: [[`m37`, `Search Around`], [`m38`, `Investigate the Gate More Closely`]]
         },
 
@@ -303,7 +302,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m32: {
-            text: `Reaching into the sky, I used rock magic, creating a meteor from space itself and pulled it down through the atmosphere. My face began smiling, I laughed maniacally knowing this attack would destroy everything there could be in this world. I didn't care, I just wanted to win here. With the meteor crashing through the atmosphere, the world caved in, and my vision scattered full of black and white. \n Special \n G̸͈̋a̴̮͠m̶̬̓é̴͜ ̴̠̓ò̷̪v̶͚͋ė̷ͅr̸̽͜!̷̜̃ ̴͖͊I̴̻͆m̸̼̂m̸̥̎ỉ̵͇n̵͎͘e̵͒ň̷̞ť̵̟ ̶̲̄Ḍ̴́o̵͓͊ȏ̸̮m̸̴̲̍̕͜`
+            text: `Reaching into the sky, I used rock magic, creating a meteor from space itself and pulled it down through the atmosphere. My face began smiling, I laughed maniacally knowing this attack would destroy everything there could be in this world. I didn't care, I just wanted to win here. With the meteor crashing through the atmosphere, the world caved in, and my vision scattered full of black and white. <br> Special <br> G̸͈̋a̴̮͠m̶̬̓é̴͜ ̴̠̓ò̷̪v̶͚͋ė̷ͅr̸̽͜!̷̜̃ ̴͖͊I̴̻͆m̸̼̂m̸̥̎ỉ̵͇n̵͎͘e̵͒ň̷̞ť̵̟ ̶̲̄Ḍ̴́o̵͓͊ȏ̸̮m̸̴̲̍̕͜`
         },
 
         m33: {
@@ -323,7 +322,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m36: {
-            text: `I absorbed the dragon's orb it had left behind. Feeling its power draw inside of me. I felt the dragon's raging power, but it was easy to contain and control. Confirming I had just acquired dragonslayer magic, I felt confident I could beat the Divine Goddess I was destined to fight. I quickly turned around, looking to see if the mantis and tortoise remained where they were. They were gone, physically, but in essence of magic they were still there. \n Two voices aligned, both in unison, reached out to me. "You are ready to be a hero. Astreus Bolg has been defeated.Travel west, you will come to a stretched valley where half the land is decimated and the other half is flourished full of green. Lastly, we thank you hero. As a parting gift, please use our abilities to the fullest and defeat the Divine Goddess." \n Feeling the power of my mentors imbued into my body, I carried their will and strength that they gifted to me. Using lightning magic and traversing west in several hours, I approached the valley where a side of life existed and on the other side it wreaked decomposed land. I ventured continuously down the straight path the border depicted between life and barren land. Coming across to a desolate and ruined gate, a chunk of it had broken off but remained intact still. Etched into one side of the gate, it read: "forbidden port. . ."`,
+            text: `I absorbed the dragon's orb it had left behind. Feeling its power draw inside of me. I felt the dragon's raging power, but it was easy to contain and control. Confirming I had just acquired dragonslayer magic, I felt confident I could beat the Divine Goddess I was destined to fight. I quickly turned around, looking to see if the mantis and tortoise remained where they were. They were gone, physically, but in essence of magic they were still there. <br> Two voices aligned, both in unison, reached out to me. "You are ready to be a hero. Astreus Bolg has been defeated.Travel west, you will come to a stretched valley where half the land is decimated and the other half is flourished full of green. Lastly, we thank you hero. As a parting gift, please use our abilities to the fullest and defeat the Divine Goddess." <br> Feeling the power of my mentors imbued into my body, I carried their will and strength that they gifted to me. Using lightning magic and traversing west in several hours, I approached the valley where a side of life existed and on the other side it wreaked decomposed land. I ventured continuously down the straight path the border depicted between life and barren land. Coming across to a desolate and ruined gate, a chunk of it had broken off but remained intact still. Etched into one side of the gate, it read: "forbidden port. . ."`,
             options: [[`m37`, `Search Around`], [`m38`, `Investigate the Gate Closely`]]
         },
 
@@ -338,7 +337,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m39: {
-            text: `Deciding how much I wanted to return home at all cost, even considering the cruel Divine Goddess that will rule over this world, I wanted to return back to mine. Upon deciding to return home, my body began to wither into an astral version of myself. My astral projection began uplifting itself into a stream of light, full of shards and bits of my life from the world I was transported to. Within that time, my sight had gone completely white, like a blank empty space. I closed my eyes, seeing all black, and peered them open. At last, I was back home. It was the next morning. The morning light softly entered my room through the blinds. Everything seemed as if it was just a dream. Perhaps, it was just a dream. \n You Found Your Way Home! Victory!`
+            text: `Deciding how much I wanted to return home at all cost, even considering the cruel Divine Goddess that will rule over this world, I wanted to return back to mine. Upon deciding to return home, my body began to wither into an astral version of myself. My astral projection began uplifting itself into a stream of light, full of shards and bits of my life from the world I was transported to. Within that time, my sight had gone completely white, like a blank empty space. I closed my eyes, seeing all black, and peered them open. At last, I was back home. It was the next morning. The morning light softly entered my room through the blinds. Everything seemed as if it was just a dream. Perhaps, it was just a dream. <br> You Found Your Way Home! Victory!`
         },
 
         m40: {
@@ -347,7 +346,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m41: {
-            text: `Forming a katana spellblade created by elemental magic, I turned the blade into dark and gravitational magic. With my blade the shade of black and purple energy reaching the tip of the blade, I held it with two hands. Poistering myself at an angle, blade titled horizontally, I let out a swift slash, throwing an arc of dark energy which hit the castle. As the castle split right in half, it began corroding, turning into rubble and conversing into a ball of energy. The gravitational magic from the slash began rupturing and scattered the rubble everywhere. With the large explosion of the rupture, the sky turned gray, the realm started to rain. Lightning crashed from the skies, the water surface I stood upon all turned into crimson red. The instinctual thought to defend followed my mind. I turned around, switching my blade into a reverse handle and grasped the neck of the blade right as a spear thrusted at me. The spear continuously pushed me back as I kept my guard up. My grip tensed, I held tightly and slashed upward, deflecting the spear into the air and it punctured straight into the ground. \n A voice from the open was pronounced, "I had no doubt you would come for me. . . Hero. I've been expecting you, although, I never accounted that the measure of your power would destroy my home." It was the Seraph. She appeared mysteriously in front of me. She kept a good distance away from me, it would be difficult to close the gap between her and I. I grinned a bit, I decided how I would try to attack her.`,
+            text: `Forming a katana spellblade created by elemental magic, I turned the blade into dark and gravitational magic. With my blade the shade of black and purple energy reaching the tip of the blade, I held it with two hands. Poistering myself at an angle, blade titled horizontally, I let out a swift slash, throwing an arc of dark energy which hit the castle. As the castle split right in half, it began corroding, turning into rubble and conversing into a ball of energy. The gravitational magic from the slash began rupturing and scattered the rubble everywhere. With the large explosion of the rupture, the sky turned gray, the realm started to rain. Lightning crashed from the skies, the water surface I stood upon all turned into crimson red. The instinctual thought to defend followed my mind. I turned around, switching my blade into a reverse handle and grasped the neck of the blade right as a spear thrusted at me. The spear continuously pushed me back as I kept my guard up. My grip tensed, I held tightly and slashed upward, deflecting the spear into the air and it punctured straight into the ground. <br> A voice from the open was pronounced, "I had no doubt you would come for me. . . Hero. I've been expecting you, although, I never accounted that the measure of your power would destroy my home." It was the Seraph. She appeared mysteriously in front of me. She kept a good distance away from me, it would be difficult to close the gap between her and I. I grinned a bit, I decided how I would try to attack her.`,
             options: [[`m42`, `Teleport and Strike`], [`m43`, `Unleash a Ranged Attack`]]
         },
 
