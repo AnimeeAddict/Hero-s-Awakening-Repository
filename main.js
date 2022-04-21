@@ -10,18 +10,24 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         continue: {
-            text: "Mari: 'Welcome home '" + player.name + '. The time is currently 12:12AM, 47 degrees fahrenheit.' 
-            + '\n' + "In response, I say, 'Yes yes. Thank you Mari. I am heading to bed now. See you tomorrow.' I closed my eyes, waiting to see what tomororow will bring for me.",
+            text: "Mari: 'Welcome home " + 'Melphios' + '. The time is currently 12:12AM, 47 degrees fahrenheit.'
+                + '\n' + "In response, I say, 'Yes yes. Thank you Mari. I am heading to bed now. See you tomorrow.' I closed my eyes, waiting to see what tomororow will bring for me.",
             options: [['narration', 'Continue']]
         },
-        
+
         narration: {
-          text: "My name is " + player.name + ", I am a 28 year old game designer. I'm not very much of a sport or athletic person but I am considerably average I think. I received a monthly income of money as a pension due to my absent parents ever since the beginning of elementary school and grew up only with my grandfather who would tell me wild tales about how he lived within another world. I didn't believe him as I thought it was pure madness. Soon after he passed away, I found myself imbued within an empty black hole of nothing my whole high school years. However, I am mainly a shut-in gamer and to pass the time I played video games to escape that emptiness. I really love to play video games, especially mmorpgs. The only time I am happy is when I'm playing games. If only I could enter another world that is easier than this life.",
-          options: [['sleep', 'Go to sleep.']]
+            text: "My name is " + player.name + ", I am a 28 year old game designer. I'm not very much of a sport or athletic person but I am considerably average I think. I received a monthly income of money as a pension due to my absent parents ever since the beginning of elementary school and grew up only with my grandfather who would tell me wild tales about how he lived within another world. I didn't believe him as I thought it was pure madness. Soon after he passed away, I found myself imbued within an empty black hole of nothing my whole high school years. However, I am mainly a shut-in gamer and to pass the time I played video games to escape that emptiness. I really love to play video games, especially mmorpgs. The only time I am happy is when I'm playing games. If only I could enter another world that is easier than this life.",
+            options: [['sleep', 'Go to sleep']]
         },
 
         sleep: {
-          text: "I woke up amidst my slumber after hearing a combination of what seems to be a man and woman's voice. It sounded mildly distorted but I was able to make up the words." + "\n" + "'Here ye enter to the new world. I have summoned you here to test your resolve. Come forth, the way back is shut. But return awaits you if you defeat me.'" + "\n" + "Hearing this passage from the anonymous voice gave me the absolute chills. I questioned whether or not it had been my imagination or not. Nonetheless, I need to find a way back home."
+            text: "My eyes steadily shut, my vision blackened. I finally fell asleep and slept for what felt like a restful night. To my attention, my sleep had been disturbed.",
+            options: [['wakeUp', 'Wake up']]
+        },
+        
+        wakeUp: {
+            text: "I woke up amidst my slumber after hearing a combination of what seems to be a man and woman's voice. It sounded mildly distorted but I was able to make up the words." + "\n" + "'Here ye enter to the new world. I have summoned you here to test your resolve. Come forth, the way back is shut. But return awaits you if you defeat me.'" + "\n" + "Hearing this passage from the anonymous voice gave me the absolute chills. I questioned whether or not it had been my imagination or not. Nonetheless, I need to find a way back home.",
+            options: [[]]
         },
 
         a1: {
@@ -244,12 +250,12 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
 
         m23: {
             text: "I awoke to find myself completely bandaged on my head and arm near a campfire. Slightly wincing in fatigue, the injuries seemed to have healed almost instantly as I felt only a little pain. I turned my head and left, noticing a small movement." +
-             "\n" + "'I see you have woken up, hero.' The pink-pray mantis spoke to me emerging from the shadows" +
-             "\n" + "In response, I said, 'Why do you keep calling me 'hero'? I am just an ordinary person trying to find my way home."
-             + "\n" + "A branch swings down and the tortoise slides down near the mantis's side. 'Because it is your destiny! It is your destiny to become the hero of this ill-fated world dreaded by that so called 'Divine Goddess'!" + 
-            "\n" + "Following up from what the toirtoise said, the mantis explains, 'The Divine Goddess he is referring to, is the one who brought you here. Perhaps if you seek answers to go back home, she can give it to you. But be wary, she carries a foul omen and only seeks power. Should it come to the point you defeat her, you will return home." + 
-            "\n" + "In a quiet moment of silence, I knelt down, recollecting my thoughts and emotions. If this 'Divine Goddess' hadn't brought me here, I wouldn't have had to struggle fighting for my life and finding a way home. Even with all this power I had, I wouldn't have needed to use it had I not been summoned here. I distinctly let out a face of disgust and annoyance. I let out a shout to release my frustration, lashing a lunar fireball towards the open sky which immediately burned the trees and caused it to petrify within fractions of a second. Taking a deep breathe, I resumed speaking. 'Tell me where this Divine Goddess is." 
-            + "\n" + "The mantis and tortoise both responded, 'Travel west, you will come to a stretched valley where half the land is decimated and the other half is flourished full of green. We thank you hero. Take this dragon orb as a gift as well. It's name is Astreus Bolg.' In the mere moments after they said this to me, they faded into spirals of magic, flowing around my feet and up to my head, slowly sinking into my body. As it naturally came to me, I gained the mantis's offensive abilities and the tortoise's defensive magic which will aid me. Moving forward, I traveled west quickly, using spatial magic to traverse quickly. I approached the valley and land they described to me. Seeing I was in the right place, I ventured continuously down the straight path the border depicted between life and barren land. Coming across to a desolate and ruined gate with no doors or other side, chunks of it had broken off but remained intact still. Etched into one side of the gate, it read, 'forbidden port. . .'",
+                "\n" + "'I see you have woken up, hero.' The pink-pray mantis spoke to me emerging from the shadows" +
+                "\n" + "In response, I said, 'Why do you keep calling me 'hero'? I am just an ordinary person trying to find my way home."
+                + "\n" + "A branch swings down and the tortoise slides down near the mantis's side. 'Because it is your destiny! It is your destiny to become the hero of this ill-fated world dreaded by that so called 'Divine Goddess'!" +
+                "\n" + "Following up from what the toirtoise said, the mantis explains, 'The Divine Goddess he is referring to, is the one who brought you here. Perhaps if you seek answers to go back home, she can give it to you. But be wary, she carries a foul omen and only seeks power. Should it come to the point you defeat her, you will return home." +
+                "\n" + "In a quiet moment of silence, I knelt down, recollecting my thoughts and emotions. If this 'Divine Goddess' hadn't brought me here, I wouldn't have had to struggle fighting for my life and finding a way home. Even with all this power I had, I wouldn't have needed to use it had I not been summoned here. I distinctly let out a face of disgust and annoyance. I let out a shout to release my frustration, lashing a lunar fireball towards the open sky which immediately burned the trees and caused it to petrify within fractions of a second. Taking a deep breathe, I resumed speaking. 'Tell me where this Divine Goddess is."
+                + "\n" + "The mantis and tortoise both responded, 'Travel west, you will come to a stretched valley where half the land is decimated and the other half is flourished full of green. We thank you hero. Take this dragon orb as a gift as well. It's name is Astreus Bolg.' In the mere moments after they said this to me, they faded into spirals of magic, flowing around my feet and up to my head, slowly sinking into my body. As it naturally came to me, I gained the mantis's offensive abilities and the tortoise's defensive magic which will aid me. Moving forward, I traveled west quickly, using spatial magic to traverse quickly. I approached the valley and land they described to me. Seeing I was in the right place, I ventured continuously down the straight path the border depicted between life and barren land. Coming across to a desolate and ruined gate with no doors or other side, chunks of it had broken off but remained intact still. Etched into one side of the gate, it read, 'forbidden port. . .'",
             options: [[`m37`, `Search Around`], [`m38`, `Investigate the Gate More Closely`]]
         },
 
@@ -263,29 +269,29 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
             `,
             options: [[`m35`, `Spray the Dragon with Ice`]]
         },
-        
+
         m26: {
             text: `Forming a spiraling bolt of water, I increased its pressure 100x times its normal state and hurled it at the dragon's head. Upon impact the dragon's head darted as if it were hit hard and pieces of its scaling cracked off. The dragon jumped into the air, aiming to crush me.
             `,
             options: [[`m34`, `Raise a Giant Body of Water`]]
         },
-        
+
         m27: {
             text: `Generating lightning from my hands, I shaped it into a long spear. The crackling electricity began whipping and lashing out, gaining kinetic energy. Charging up my swing, I thrusted the spear towards the dragon, piercing severely straight through it. Seeing the dragon drop straight to the ground, it must've been severely weak to lightning and the kinetic energy it had amassed through the spear. The dragon began immediately turning into dust, leaving nothing behind but an orb.`,
             options: [[`m36`, `Absorb the Dragon Orb`]]
         },
-        
+
         m28: {
             text: `Using absorption magic, I braced myself, held my arm out and began absorbing the fireball. Analyzing its magic components, I reconstructed its contents according to my magic.`,
             options: [[`m31`, `Cast Partial Dragonslayer Magic`]]
         },
-        
+
         m29: {
             text: `I formulated the same size variation of the fireball and increased its temperature, hoping to exceed hotter than the dragon's flames. The air pressure rose, the heat radiated off the fireballs, and blasted the area away. Using wind magic to fan out the debris, the dragon's own magic and mine seemed to have damaged it severely. The dragon laid restlessly on its side.
             `,
             options: [[`m32`, `Deliever the Finishing Blow`]]
         },
-        
+
         m30: {
             text: `Creating a large spellblade, its immeasurable size was greater than what I visualized. Conducting through the blade was elemental magic. Grasping the handle with my hand, I slashed it downward, splitting the dragon's fireball and it absorbed within my blade. In one swift motion, my body moved on its own and I punctured the blade into the dragon. The dragon's body dissipated into steam, vanishing away and leaving an orb of essence behind.`,
             options: [[`m36`, `Absorb the Dragon Orb`]]
@@ -297,7 +303,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m32: {
-            text: `Reaching into the sky, I used rock magic, creating a meteor from space itself and pulled it down through the atmosphere. My face began smiling, I laughed maniacally knowing this attack would destroy everything there could be in this world. I didn't care, I just wanted to win here. With the meteor crashing through the atmosphere, the world caved in, and my vision scattered full of black and white. \n Special \n G̸͈̋a̴̮͠m̶̬̓é̴͜ ̴̠̓ò̷̪v̶͚͋ė̷ͅr̸̽͜!̷̜̃ ̴͖͊I̴̻͆m̸̼̂m̸̥̎ỉ̵͇n̵͎͘e̵͒ň̷̞ť̵̟ ̶̲̄Ḍ̴́o̵͓͊ȏ̸̮m̸̴̲̍̕͜` 
+            text: `Reaching into the sky, I used rock magic, creating a meteor from space itself and pulled it down through the atmosphere. My face began smiling, I laughed maniacally knowing this attack would destroy everything there could be in this world. I didn't care, I just wanted to win here. With the meteor crashing through the atmosphere, the world caved in, and my vision scattered full of black and white. \n Special \n G̸͈̋a̴̮͠m̶̬̓é̴͜ ̴̠̓ò̷̪v̶͚͋ė̷ͅr̸̽͜!̷̜̃ ̴͖͊I̴̻͆m̸̼̂m̸̥̎ỉ̵͇n̵͎͘e̵͒ň̷̞ť̵̟ ̶̲̄Ḍ̴́o̵͓͊ȏ̸̮m̸̴̲̍̕͜`
         },
 
         m33: {
@@ -392,7 +398,8 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
     var overview = document.getElementById('overview');
     var uiArea = document.getElementById('uiArea'); //Area where users will interact
     var uiButtons = document.getElementById('uiButtons'); //Buttons for users
-
+    const body = document.body; //Body variable to access background change
+    const colors = ['backgoundHeader.jpg', 'red', 'blue']; //Background changer
 
     //Advise from using innerHTML due to XSS attacks but for this project it should be fine
     function uiButton(uiText, decision) {
@@ -431,6 +438,9 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
 
     enterBtn.addEventListener("click", function () {
         developStory(story.prologue.text); //story will run
+        document.body.style.backgroundImage = 'url("images/backgoundHeader.jpg")'
         startOverBtn.style.display = '';
     });
+
+    //https://stackoverflow.com/questions/7318462/changing-background-image-with-css3-animations#7319497 BACKGROUND CHANGE REFERENCE
 }
