@@ -11,7 +11,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
 
         continue: {
             text: `Mari: "Welcome home Melphios. The time is currently 12:12AM, 47 degrees fahrenheit." <br><br> "In response, I say, "Yes yes. Thank you Mari. I am heading to bed now. See you tomorrow." I closed my eyes, waiting to see what tomororow will bring for me.`,
-            options: [['narration', 'Continue']]
+            options: [['narration', 'Lay in bed']]
         },
 
         narration: {
@@ -20,13 +20,23 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         sleep: {
-            text: "My eyes steadily shut, my vision blackened. I finally fell asleep and slept for what felt like a restful night. To my attention, my sleep had been disturbed.",
+            text: `My eyes steadily shut, my vision blackened. I finally fell asleep and slept for what felt like a restful night. To my attention, my sleep had been disturbed and I would wake up later throughout the night.`,
+            options: [['slumber', 'Continue']]
+        },
+
+        slumber: {
+            text: `Amidst my slumber, hearing a combination of what seems to be a man and woman's voice. It sounded mildly distorted but I was able to make up the words. <br><br> "Here ye enter to the new world. I have summoned you here to test your resolve. Come forth, the way back is shut. But return awaits you if you defeat me." <br><br> Hearing this passage from the anonymous voice gave me the absolute chills. I questioned whether or not it had been my imagination or not. Nonetheless, I need to find a way back home I thought to myself.`,
             options: [['wakeUp', 'Wake up']]
         },
-        
+
         wakeUp: {
-            text: "I woke up amidst my slumber after hearing a combination of what seems to be a man and woman's voice. It sounded mildly distorted but I was able to make up the words." + "<br><br>" + "'Here ye enter to the new world. I have summoned you here to test your resolve. Come forth, the way back is shut. But return awaits you if you defeat me.'" + "<br><br>" + "Hearing this passage from the anonymous voice gave me the absolute chills. I questioned whether or not it had been my imagination or not. Nonetheless, I need to find a way back home.",
-            options: [[]]
+            text: `I opened my eyes only to see pitch black. I told myself, "It was just my imagination. I'm still here in my room." It wasn't my room though. My back was cold, it felt like I was laying on a hard and cracked floor and brittle stone chunks. I nudged my head up a bit. From my peripheral view, I could see some light emitting from a bottom corridor which looks like it leads downstairs. I stood up, looked around my surroundings only to visually see that I was captivated in a dim room. I gulped and began walking towards the light coming from the corridor. When I reached the stairs, it led down to a gate, however, hanging to the right on the wall was a torch latched in a hook which rested by what looked like to be a button etched into the wall. It looked a bit out of place and I felt cautious to press it but was also eager to see what it would do.`,
+            options: [['press', 'Press the button'], ['noPress', `Don't Press`]],
+        },
+
+        press: {
+            text: `The etched button would disfigure into a hollow pocket which would reveal a dagger laying inside of it. The dagger was well designed with engravings carved over the black alloy handle which extended across the blade. The blade was carbon black, curving towards the top and felt very light but firm. It seemed almost as brand new in the condition it was. I then decided to. . .`,
+        options: [[`a1`, 'Pick up the torch and dagger'], ['a2', 'Pick up the dagger only'], ]
         },
 
         a1: {
