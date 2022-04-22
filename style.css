@@ -126,6 +126,7 @@ header {
 
 .authors {
     font-size: 1em;
+    padding-bottom: 20px;
 }
 
 h2 {
@@ -135,6 +136,13 @@ h2 {
 #overview {
     font-size: 50%;
     overflow: hidden;
+}
+
+button {
+    margin: auto auto;
+    height: 50px;
+    width: 100px;
+    margin-bottom: 10px;
 }
 
 .enterButton {
@@ -190,10 +198,6 @@ a {
 #uiButtons {
     display: flex;
     justify-content: space-around;
-}
-
-button {
-    width: 100px;
 }
 
 .circle {

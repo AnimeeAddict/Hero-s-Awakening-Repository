@@ -74,15 +74,18 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
             options: [[`d1`, `Bring My Arms Up to Guard`], [`d2`, `Roll Out of the Attack Range`]]
         },
         c2: {
-            text: `I sidestepped towards the left in my attempt to dodge. <br> *Shluk!!* <br> Realizing what had happened, the blade had sunken through me. <br> Game Over...`
+            text: `I sidestepped towards the left in my attempt to dodge. <br><br> *Shluk!!* <br><br> Realizing what had happened, the blade had sunken through me.`,
+            options: [[`gameOver`, `Continue`]]
         },
+
+
         c3: {
             text: `I sidestepped towards the right in my attempt to dodge. Successfully dodging, the Goblin Knight turned towards me, charging what looked like to be a magic attack. The Goblin Knight's blade glistened instantly in bright purple. Seeing how that couldn't be good, I prepared myself to dodge again or perhaps counterattack. The Goblin Knight instantaneously dashed towards me. Barely reacting to the blade, I. . .`,
             options: [[`d3`, `Block the Attack with the Torch`], [`d4`, `Block the Attack with the Dagger`]]
         },
 
         c4: {
-            text: `I lunge forward and swing through with my dagger in an attempt to counterattack. <br> *Twaang!* <br> The Goblin Knight's blade bounces back. I lauch forward a series of three horizontal slashes. <br> *Slash slash slash* <br> I land all three attacks, severely damaging the Goblin Knight on its left arm. The Goblin Knight lets out a shout, tremendously filling the air with heavy pressure around me. Sweat starts to drip more frequently as I lift my blade up for another attack. The Goblin Knight suddenly slams its foot into the ground, unleashing a disrupting wave of rubble at me. I . . .`,
+            text: `I lunge forward and swing through with my dagger in an attempt to counterattack. <br><br> *Twaang!* <br><br> The Goblin Knight's blade bounces back. I lauch forward a series of three horizontal slashes. <br><br> *Slash slash slash* <br><br> I land all three attacks, severely damaging the Goblin Knight on its left arm. The Goblin Knight lets out a shout, tremendously filling the air with heavy pressure around me. Sweat starts to drip more frequently as I lift my blade up for another attack. The Goblin Knight suddenly slams its foot into the ground, unleashing a disrupting wave of rubble at me. I . . .`,
             options: [[`d1`, `Bring My Arms Up to Guard`], [`d2`, `Roll Out of the Attack Range`]]
         },
 
@@ -102,7 +105,8 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         c8: {
-            text: ` I sidestepped towards the right in my attempt to dodge. Successfully dodging, the Goblin Knight turned towards me, charging what looked like to be a magic attack. Its blade began glowing with bright red. The Goblin Knight instantaneously dashed towards me. Barely reacting to the blade, I catch the blade in between my palms. Looking at how my hands clasped the blade, I could feel the heat radiating off it by the skin of my forehead. The blade began searing my hands and my palms burnt. Groaning in pain, 'Agghhh', I couldn't let go otherwise it would mean the end of me. <br> I hear a voice instructing me to select a rune for my class but if I try to move my hands then the blade will slice me. Gambling my life on the runes, I try to grab it. <br> *Ssshink* <br> Game Over`
+            text: ` I sidestepped towards the right in my attempt to dodge. Successfully dodging, the Goblin Knight turned towards me, charging what looked like to be a magic attack. Its blade began glowing with bright red. The Goblin Knight instantaneously dashed towards me. Barely reacting to the blade, I catch the blade in between my palms. Looking at how my hands clasped the blade, I could feel the heat radiating off it by the skin of my forehead. The blade began searing my hands and my palms burnt. Groaning in pain, 'Agghhh', I couldn't let go otherwise it would mean the end of me. <br><br> I hear a voice instructing me to select a rune for my class but if I try to move my hands then the blade will slice me. Gambling my life on the runes, I try to grab it. <br><br> *Ssshink*`,
+            options: [[`gameOver`, `Continue`]]
         },
 
         d1: {
@@ -121,13 +125,13 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         d4: {
-            text: `Raise up the dagger to block the attack. The Goblin Knight's imbued blade blows me three meters away with a mild explosion. The impact from blocking and the blades hitting must've unleashed its magic. <br> Trying to recover back onto my feet, my arm is slightly burnt and stings with pain. My hand starts to shake while still clutching onto my dagger. <br> Getting up on my feet, I hear a voice speak out to me.`,
+            text: `Raise up the dagger to block the attack. The Goblin Knight's imbued blade blows me three meters away with a mild explosion. The impact from blocking and the blades hitting must've unleashed its magic. <br><br> Trying to recover back onto my feet, my arm is slightly burnt and stings with pain. My hand starts to shake while still clutching onto my dagger. <br><br> Getting up on my feet, I hear a voice speak out to me.`,
             options: [[`e1`, `Continue`]]
         },
 
         d5: {
-            text: `I throw my hands up and catch the blade but the Goblin Knight overpowers me and slashes me regardless. <br><br> Game Over!`,
-            options: [[`e1`, `Continue`]]
+            text: `I throw my hands up and catch the blade but the Goblin Knight overpowers me and slashes me regardless.`,
+            options: [[`gameOver`, `Continue`]]
         },
 
         d6: {
@@ -165,12 +169,13 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m3: {
-            text: `I decided to go outside. Once I'm outside, the only thing I could see is trees and shrubs that look to go on for miles. Suddenly, I hear a voice call out to me but this was a different voice. It was a very calm and soft spoken voice. The female voice said, "Congratulations on defeating the Goblin Knight. Come out of the ruins, take the middle path and find me near a river." <br> After hearing that, I walk a little further into the forest and see that the path separates into three different paths. I decide to take:`,
+            text: `I decided to go outside. Once I'm outside, the only thing I could see is trees and shrubs that look to go on for miles. Suddenly, I hear a voice call out to me but this was a different voice. It was a very calm and soft spoken voice. The female voice said, "Congratulations on defeating the Goblin Knight. Come out of the ruins, take the middle path and find me near a river." <br><br> After hearing that, I walk a little further into the forest and see that the path separates into three different paths. I decide to take:`,
             options: [[`m5`, `Left Path`], [`m6`, `Middle Path`], [`m7`, `Right Path`]]
         },
 
         m4: {
-            text: `I decided to stay in the dungeon to explore anything else that had appeared. I walk deeper into the room and see another door but it seems like it is closed. I get curious and decide to open the door. Inside I see a table in the middle of the room. I walk closer and see a brewing potion set. Right in front of it, I see a potion with the label saying, "Immortality Potion". Believing it was real, I drank it and immediately felt nauseous. I looked up and everything started blurring out. I close my eyes and feel my body fall to the ground. <br> Game Over`
+            text: `I decided to stay in the dungeon to explore anything else that had appeared. I walk deeper into the room and see another door but it seems like it is closed. I get curious and decide to open the door. Inside I see a table in the middle of the room. I walk closer and see a brewing potion set. Right in front of it, I see a potion with the label saying, "Immortality Potion". Believing it was real, I drank it and immediately felt nauseous. I looked up and everything started blurring out. I close my eyes and feel my body fall to the ground.`,
+            options: [['gameOver', 'Continue']]
         },
 
         m5: {
@@ -179,31 +184,33 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m6: {
-            text: `I decided to take the middle path, bearing in mind what the mysterious voice had told me. Walking down the path, I approached a river and rested upon the ledge of flat grass where the river calmly streamed by. <br> "I see you have made it to us properly. . . hero. I'm down here floating by you if you didn't notice." <br> I looked downward towards the voice only to see a pink-pray mantis on top of a tortoise. The two companions explain to me, declaring that they will train me to be the fated hero I am to be.`,
+            text: `I decided to take the middle path, bearing in mind what the mysterious voice had told me. Walking down the path, I approached a river and rested upon the ledge of flat grass where the river calmly streamed by. <br> "I see you have made it to us properly. . . hero. I'm down here floating by you if you didn't notice." <br><br> I looked downward towards the voice only to see a pink-pray mantis on top of a tortoise. The two companions explain to me, declaring that they will train me to be the fated hero I am to be.`,
             options: [[`m15`, `Accept`], [`m16`, `Decline`], [`m17`, `Attack Them`]]
         },
 
         m7: {
-            text: `I decided to take the right path. I walk down and see a river but it was a darker color then I remember. It looks like more of a swamp. I walk closer towards it and look down at the river. The river looks very murky. I reached out my hand in an attempt to summon the female voice from earlier. However, you see a large shadow appear over you and catch you off guard. You turn and quickly try to summon an element but it's already too late. The monster quickly reaches for you and kills you. <br> Game Over`,
+            text: `I decided to take the right path. I walk down and see a river but it was a darker color then I remember. It looks like more of a swamp. I walk closer towards it and look down at the river. The river looks very murky. I reached out my hand in an attempt to summon the female voice from earlier. However, you see a large shadow appear over you and catch you off guard. You turn and quickly try to summon an element but it's already too late. The monster quickly reaches for you and kills you.`,
+            options: [[`gameOver`, `Continue`]]
         },
 
         m8: {
-            text: `I decided to explore the town and see if there is anything useful there. I look around and see there is a building where they see food. <br> *Growl* <br> "Mmm I could really go for some food right now." I walk over and see what food they are selling there. After walking closer, I noticed there was freshly baked bread and freshly picked apples.`,
+            text: `I decided to explore the town and see if there is anything useful there. I look around and see there is a building where they see food. <br><br> *Growl* <br><br> "Mmm I could really go for some food right now." I walk over and see what food they are selling there. After walking closer, I noticed there was freshly baked bread and freshly picked apples.`,
             options: [[`m10`, `Ask for Food`], [`m11`, `Steal Their Food`]]
         },
 
         m9: {
-            text: `I decided to not go into town since appearances can be deceiving. Walking down the path, I approached a river and rested upon the ledge of flat grass where the river calmly streamed by. <br> "I see you have made it to us properly. . . hero. I'm down here floating by you if you didn't notice." <br> I looked downward towards the voice only to see a pink-pray mantis on top of a tortoise. The two companions explain to me, declaring that they will train me to be the fated hero I am to be.`,
+            text: `I decided to not go into town since appearances can be deceiving. Walking down the path, I approached a river and rested upon the ledge of flat grass where the river calmly streamed by. <br><br> "I see you have made it to us properly. . . hero. I'm down here floating by you if you didn't notice." <br><br> I looked downward towards the voice only to see a pink-pray mantis on top of a tortoise. The two companions explain to me, declaring that they will train me to be the fated hero I am to be.`,
             options: [[`m15`, `Accept`], [`m16`, `Decline`], [`m17`, `Attack Them`]]
         },
 
         m10: {
-            text: `I decided to walk in and ask for food. Opening the door, the owner of the store greets me. I ask politely, "Hello there sir, I don't really have money right now but have gone through quite a battle. Could you spare some food?" <br> They replied, "Hmm you do look pretty wounded. I can spare you some scraps from last week that never got sold. They are going to get old pretty soon. Here take some and also take some Sugmas (the currently in this world). You will need some if you want to continue going around the village." <br> My face lights up, "Thank you so much! I appreciate that so much. I don't know how I will repay you." I take the food and money and walk towards the exit door. Turning around, I thank him again by lowering my head and walking out.`,
+            text: `I decided to walk in and ask for food. Opening the door, the owner of the store greets me. I ask politely, "Hello there sir, I don't really have money right now but have gone through quite a battle. Could you spare some food?" <br><br> They replied, "Hmm you do look pretty wounded. I can spare you some scraps from last week that never got sold. They are going to get old pretty soon. Here take some and also take some Sugmas (the currently in this world). You will need some if you want to continue going around the village." <br><br> My face lights up, "Thank you so much! I appreciate that so much. I don't know how I will repay you." I take the food and money and walk towards the exit door. Turning around, I thank him again by lowering my head and walking out.`,
             options: [[`m12`, `Exit the Store`]]
         },
 
         m11: {
-            text: `I notice the window is open and the food is displayed which can be easily swiped. I quickly walk up trying to avoid being seen. Once I take the food I quickly take off and while running away, I see a villager who saw what I did. They shout making everyone notice that I am stealing food. While running as fast as I can, I summon a magical portal to help me escape. In an attempt to escape I try to teleport myself to my room wanting to go home. Unfortunately, a car zooms out and crashes into me. <br> Game Over`,
+            text: `I notice the window is open and the food is displayed which can be easily swiped. I quickly walk up trying to avoid being seen. Once I take the food I quickly take off and while running away, I see a villager who saw what I did. They shout making everyone notice that I am stealing food. While running as fast as I can, I summon a magical portal to help me escape. In an attempt to escape I try to teleport myself to my room wanting to go home. Unfortunately, a car zooms out and crashes into me.`,
+            options: [[`gameOver`, `Continue`]]
         },
 
         m12: {
@@ -212,24 +219,24 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m13: {
-            text: `I decided to explore the clothes store. I walk and the store owner quickly gets up and greets me. <br> "Hello there. Nice to meet you. Are you looking for anything specific?" <br> "No no. I just want some new clothes for me to travel in." <br> "Ahh yes. I may have the thing you are looking for." She walks in the storage room of the store and walks back out. She hands me a really nice set of clothes. I really like it since it seems to be really comfortable and nicely styled. I decided to take and use the Sugmas I got earlier to pay. I quickly change into them and she thanks me as I exit out the store. I decide this is enough and I can finally walk back to the path. `,
+            text: `I decided to explore the clothes store. I walk and the store owner quickly gets up and greets me. <br><br> "Hello there. Nice to meet you. Are you looking for anything specific?" <br><br> "No no. I just want some new clothes for me to travel in." <br><br> "Ahh yes. I may have the thing you are looking for." She walks in the storage room of the store and walks back out. She hands me a really nice set of clothes. I really like it since it seems to be really comfortable and nicely styled. I decided to take and use the Sugmas I got earlier to pay. I quickly change into them and she thanks me as I exit out the store. I decide this is enough and I can finally walk back to the path. `,
             options: [[`m14`, `Go Back to the Path`]]
         },
 
         m14: {
-            text: `You decide to leave the town and continue down the path. I decided to not go into town since appearances can be deceiving. Walking down the path, I approached a river and rested upon the ledge of flat grass where the river calmly streamed by. <br> "I see you have made it to us properly. . . hero. I'm down here floating by you if you didn't notice." <br> I looked downward towards the voice only to see a pink-pray mantis on top of a tortoise. The two companions explain to me, declaring that they will train me to be the fated hero I am to be.`,
+            text: `You decide to leave the town and continue down the path. I decided to not go into town since appearances can be deceiving. Walking down the path, I approached a river and rested upon the ledge of flat grass where the river calmly streamed by. <br><br> "I see you have made it to us properly. . . hero. I'm down here floating by you if you didn't notice." <br><br> I looked downward towards the voice only to see a pink-pray mantis on top of a tortoise. The two companions explain to me, declaring that they will train me to be the fated hero I am to be.`,
             options: [[`m15`, `Accept`], [`m16`, `Decline`], [`m17`, `Attack Them`]]
         },
 
         m15: {
-            text: `Hearing the two creatures out, I figured that somehow they may be right. Within my gut, my instinctual thought told me, perhaps I was meant to be the hero they are talking about. Since the opportunity of them arriving here now, it must mean they are meant to empower me. If I can save this world being the 'hero' they proclaim, I can find a way back home. They began honing more details and explaining to me the Divine Goddess that has been eradicating the world they know of. <br> "I accept your teachings. Lend me your strength to know how I can defeat this Divine Goddess." I said. <br> Responding back to me, both mentors told me, "Pass our test and we will give you our strength. You can use magic right? Then it should be as natural as breathing when you obtain it. The orb that you absorbed, its unknown power flows within you." <br> Questioning them, I asked, "What test?" <br> In coordination as I said that, a beast of sort emerged from the river, creating a strong impact in the ground, shaking it and distorting the flow of the wind. Slightly grinning at the beast, it transfigured into a dragon as its scales began lighting up, flames radiating off of it and becoming vividly more clear to my eyes. <br> 
-    "I am Astreus Bolg. As the Divine Goddess seeks, I will destroy you!" <br> 
+            text: `Hearing the two creatures out, I figured that somehow they may be right. Within my gut, my instinctual thought told me, perhaps I was meant to be the hero they are talking about. Since the opportunity of them arriving here now, it must mean they are meant to empower me. If I can save this world being the 'hero' they proclaim, I can find a way back home. They began honing more details and explaining to me the Divine Goddess that has been eradicating the world they know of. <br><br> "I accept your teachings. Lend me your strength to know how I can defeat this Divine Goddess." I said. <br><br> Responding back to me, both mentors told me, "Pass our test and we will give you our strength. You can use magic right? Then it should be as natural as breathing when you obtain it. The orb that you absorbed, its unknown power flows within you." <br><br> Questioning them, I asked, "What test?" <br><br> In coordination as I said that, a beast of sort emerged from the river, creating a strong impact in the ground, shaking it and distorting the flow of the wind. Slightly grinning at the beast, it transfigured into a dragon as its scales began lighting up, flames radiating off of it and becoming vividly more clear to my eyes. <br><br> 
+    "I am Astreus Bolg. As the Divine Goddess seeks, I will destroy you!" <br><br> 
     I put my hood on from my cloak, and prepared to attack.`,
             options: [[`m27`, `Thrust a Spear of Lightning`], [`m26`, `Launch a Bolt of Water`], [`m23`, `Push an Ice Shard`], [`m24`, `Sling a Great Fireball`]]
         },
 
         m16: {
-            text: `After politely hearing the two out, I stated that I did not want to be the hero. I insisted I was only trying to find a way back to my home world. Turning around, I venture out into the woods seeking for unknown answers. By nightfall, I set up a shelter to camp for the night. Around midnight, I hear a giant collapse and thud several miles away from my camp. Dashing out from my shelter using minimal magic to enhance my speed, I come to a stop. In front of my eyes is a woman with glazed and crumbly skin shining as bright as moonlight. She catches sight of me, furiously gesturing a face of rage. <br> "How dare you look at me, you inferior creature. I am the Moon Princess, submit to treason!" <br> She draws a large greatsword with magic and launches it directly at me.`,
+            text: `After politely hearing the two out, I stated that I did not want to be the hero. I insisted I was only trying to find a way back to my home world. Turning around, I venture out into the woods seeking for unknown answers. By nightfall, I set up a shelter to camp for the night. Around midnight, I hear a giant collapse and thud several miles away from my camp. Dashing out from my shelter using minimal magic to enhance my speed, I come to a stop. In front of my eyes is a woman with glazed and crumbly skin shining as bright as moonlight. She catches sight of me, furiously gesturing a face of rage. <br><br> "How dare you look at me, you inferior creature. I am the Moon Princess, submit to treason!" <br><br> She draws a large greatsword with magic and launches it directly at me.`,
             options: [[`m20`, `Absorb It Using Dark Magic`], [`m21`, `Use a Light Magic Blast`]]
         },
 
@@ -239,11 +246,13 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m18: {
-            text: `Casting the protective spell, it surrounds my body, however, it is futile and the prey-mantis's sharp precision pierces through and strikes your heart. <br> Game Over`
+            text: `Casting the protective spell, it surrounds my body, however, it is futile and the prey-mantis's sharp precision pierces through and strikes your heart.`,
+            options: [[`gameOver`, `Continue`]]
         },
 
         m19: {
-            text: `I unleashed a full on magical attack, which scales out and flashes from my hands. With no control over my magic, all elements of fire, earth, wind, water, light, shadow, and matter combust in a spiral flash, slowly disintegrating the area along with myself. With one last look as you collapse to the floor feeling your essence turn to dust, the prey-mantis and tortoise vividly crumble to dust. You defeated them. <br> Special <br> G̸a̴m̴e̷ ̸O̶v̷e̴r̴!̶ ̴T̶h̶e̴ ̴L̷a̷s̴t̶ ̶L̶a̶u̵g̷h̵`
+            text: `I unleashed a full on magical attack, which scales out and flashes from my hands. With no control over my magic, all elements of fire, earth, wind, water, light, shadow, and matter combust in a spiral flash, slowly disintegrating the area along with myself. With one last look as you collapse to the floor feeling your essence turn to dust, the prey-mantis and tortoise vividly crumble to dust. You defeated them.`
+            options: ``
         },
 
 
@@ -258,7 +267,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m22: {
-            text: `I try to stand on my feet, but my head is discombobulated slightly and the strength from my fingers dissipates. With a blink of an eye, I witness a silent slash cut through the Moon Princess and blink again to see myself on the back of a shell. Feeling my consciousness fade, an orb from the Moon Princess streams into my body before I faint. Not knowing how long I have been unconscious, I hear a voice speak out to me. <br> "Wake up hero. Your fate is near. Come find me soon and our battle will be marvelous."`,
+            text: `I try to stand on my feet, but my head is discombobulated slightly and the strength from my fingers dissipates. With a blink of an eye, I witness a silent slash cut through the Moon Princess and blink again to see myself on the back of a shell. Feeling my consciousness fade, an orb from the Moon Princess streams into my body before I faint. Not knowing how long I have been unconscious, I hear a voice speak out to me. <br><br> "Wake up hero. Your fate is near. Come find me soon and our battle will be marvelous."`,
             options: [[`m23`, `Wake Up`]]
         },
 
@@ -323,7 +332,8 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m32: {
-            text: `Reaching into the sky, I used rock magic, creating a meteor from space itself and pulled it down through the atmosphere. My face began smiling, I laughed maniacally knowing this attack would destroy everything there could be in this world. I didn't care, I just wanted to win here. With the meteor crashing through the atmosphere, the world caved in, and my vision scattered full of black and white. <br> Special <br> G̸͈̋a̴̮͠m̶̬̓é̴͜ ̴̠̓ò̷̪v̶͚͋ė̷ͅr̸̽͜!̷̜̃ ̴͖͊I̴̻͆m̸̼̂m̸̥̎ỉ̵͇n̵͎͘e̵͒ň̷̞ť̵̟ ̶̲̄Ḍ̴́o̵͓͊ȏ̸̮m̸̴̲̍̕͜`
+            text: `Reaching into the sky, I used rock magic, creating a meteor from space itself and pulled it down through the atmosphere. My face began smiling, I laughed maniacally knowing this attack would destroy everything there could be in this world. I didn't care, I just wanted to win here. With the meteor crashing through the atmosphere, the world caved in, and my vision scattered full of black and white.`,
+            options: [`specialEnding`, `Continue`]
         },
 
         m33: {
@@ -376,21 +386,95 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
             options: [[`m47`, `Release fire and ice magic`], ['m48', 'Rain of Blades'], ['m49', 'Expel Light Magic']]
         },
 
-        m56: {
-            text: `Jumping all the way to the gate in one leap, I landed in front of it. Seeing how measly of a gate it was, I easily pressed against it, blowing it into pieces. I continued to walk forward until a spear out of the unknown came forward at me. Using defensive magic, I created a barrier, reinforced it with an air shield to reduce the spear's momentum. The spear hit my shield, pushing me back a few feet but was deflected at the same time.
-            <br><br>
-            A voice from the open was pronounced, "Hello Hero. I've been waiting for you. Thanks for coming through the front gate, but I don't really appreciate how you blew it to pieces." It was the Seraph. She appeared mysteriously in front of me. She kept a good distance away from still, it would be difficult to close the gap between her and I. <br><br> I grinned a bit and said, "Thanks for letting me in. With a lowly protective gate like this you should've just left it open." Pulling my wolf crested longsword from my spatial magic portal, I unsheathed it and prepared an attack.
-            `,
-            options: [['m44', `Use Blade Magic`], ['m45', 'Summon Astreus Bolg']]
+        m43: {
+            text: `Forming an elemental bow in my hand, I casted fire magic behind me,  launching them at the Seraph before firing an elemental arrow. The Divine Goddess began dispelling my fire magic by attacking them with her spear, however, as she finished, my arrow was in the vicinity of her opening. The arrow hit her, but a barrier laid between her and the arrow itself. Of course, she wouldn't have such a simple attack of mine to be that easily successful. <br><br> In mockery towards me, the Seraph says, "Such a low trivial attack. As if an arrow from you could pierce me." <br><br> "That barrier of yours is weak!" I spouted back as an insult. Forming clones of myself created of matter magic, we each generated a longbow of elemental magic and rained light and dark magical arrows towards her. Seraph, with each arrow flying at her, used mirror magic to refract my ability. "Tssk!" I grunted. She mirrored my ability to reflect it.`,
+            options: [[`m50`, `Crippling Rain`]]
+        },
+
+        m44: {
+            text: `Pushing blade magic into my sword, I threw a flurry of magic slashes towards Seraph. Seraph stepped around to dodge my attacks, but I flashed next to her, releasing a heavy swing of magic. She brought up her spear and blocked the physical blade from slashing her, but the magic cut through her shoulder. She began coughing out uncontrollably. <br><br> In these moments, Seraph said, "I see. I'll have to get serious to get rid of your pestilence." She darted forward at me, thrusting her spear. I figured the best option for me to defeat her had already been revealed.`,
+            options: [[`m50`, `Crippling Rain`]]
+        },
+
+        m45: {
+            text: `Forming a cascade of energy flowing down my hand, a vast pool the size of a lake formed immediately. In my words, I incanted, "Come forth Astreus Bolg!" From the pool emerged the dragon I defeated as my test, Astreus Bolg. Astreus stepped down on the surface and his wings stretched widely, blowing away part of the castle. <br><br> In a look of shock, Seraph cried, "Astreus! What are you doing? Fight for me! I created y-"
+            I interrupted Seraph. "He's no longer yours. Prepare to meet your end, Seraph." Out of anger, Seraph propelled her spear forward at me.`,
+            options: [[`m51`, `Sacrificial Loss`]]
+        },
+
+        m46: {
+            text: `From the skies, I brought down multiple lightning strikes directly at Seraph. Thunder began to sound, Seraph prepared her dodge and stepped out of the range of lightning. Catching her off guard, I stood in the way of a lightning strike, conducting it through my sword and throwing it at her. Seraph took a direct hit and staggered a bit. As the lightning dissipated, I flashed in front of her sending out a wave of lightning from my fingers which unveiled her armor whole. I decreed my words to Seraph, telling her, "This is your end!" Calling upon a huge mass of lightning, thunder began to sound and the lightning in the sky struck down continuously in the shape of a person. Directing the attack with my hand, the lightning figure transpired into a single point to crash upon, where I directed it downward. With the severe destruction my power had caused, it wiped me out as well. My vision turned white, my body began phasing out, and Seraph could be heard gasping her final words. When I opened my eyes, my sight returned, and I was back home, with a lightning scar embedded on my arm.`,
+            options: [[`endingHome`, `Proceed to the End`]]
         },
 
         m47: {
-            text: 'Bursting flames out from my left hand and ice from my right I created a steam explosion filling the air with rapid heat and distorting my own view as well. As far as I can tell, Seraph took a direct hit from me. Waiting for the next move, Seraph emerged from the steam yelling.',
+            text: `Bursting flames out from my left hand and ice from my right I created a steam explosion filling the air with rapid heat and distorting my own view as well. As far as I can tell, Seraph took a direct hit from me. Waiting for the next move, Seraph emerged from the steam yelling. "Is that all you've got!?" Seraph yelled, charging directly at me. Her armor began breaking away due to thermal expansion. The steam had heated her armor to ridiculous levels that it could not withstand. Her headgear began breaking away as well revealing that her true nature was not of human, but rather she had no facial features but a mouth. Her white hair drooped over her face, covering mostly everything but her mouth. I lunged forward, fighting her head on.`,
             options: [[`continue47`, `Continue`]]
         },
 
-    };
+        continue47: {
+            text: `Fabricating a long stave within my hands during my lunge, Seraph and I clashed our weapons head to head. Each impact of our blows shook the ground. In endless trades blow for blow, Seraph's attack speed began increasing. Holding off as many attacks that she outputted began becoming difficult, I started getting slower than her. Her attacks were essentially just lashing out at me. Seraph's movements were flawed however, her long side sweeping attacks would leave her open for me. In short, I converted my stave into a longsword, grasped it with two hands and dashed through her. Seraph fell to her knee, hinging onto her spear and latching onto where I inflicted a severe slash on her. In arrogance and more anger, Seraph threw her spear at me with a massive fireball following up which increased the spears speed.`,
+            options: [[`continue47a`, `Continue`]]
+        },
 
+        continue47a: {
+            text: `I couldn't take the spear head on by simply blocking against it. It would probably break through and pierce me. Creating a massive shield, I enhanced it with elemental magic, layering it over and over with dragonslayer magic. This caused the shield to harden up and form thick dragon scales. I reconstructed my sword into a spear, creating the combination of my ultimate shield and spear. I projected my shield out forward, directly hitting against Seraph's spear and her flames engulfing around me. Pushing and pushing as hard as I could, the spear wouldn't budge. Bringing up my spear upon my shoulder, I kicked off my shield and jabbed my spear against my shield to add momentum and energy. I pressed forward with more and more energy, gathering all the released magic that had been recuperating around from the battlefield and detonated it with the shield. Seraph's spear and my ultimate shield and spear would cancel each other out, emitting intense pressure which blew up.`,
+            options: [[`continue47b`, 'Continue']]
+        },
+
+        continue47b: {
+            text:`Sweat began dripping down my face. I started breathing heavily, shoulder bleeding as a broken part of Seraph's spear had punctured into me. Intense pain consumed all over within me. I stood on my feet, grasping the broken spear and tried to pull it out. In those moments of my attempt, chains sprouted out, shooting all the way to Seraph. My eyes flustered, and my body immediately dragged across the surface of  the ground and into the air. Seraph whipped me around into the ground and air repeatedly. Not having time to catch my breath, I desperately emitted dragonslayer magic to harden my body in scales for protection. Seraph let out a gasp and coughed loudly, indicating my chance to attack. Ignoring the pain my body felt, I grabbed the chain still attached to the spear part in my shoulder and with one big pull, I dragged Seraph all the way to me. As she came flying to me, I closed my fist, timing the trajectory in which she came at me, and smashed her into the ground with my punch straight to her face. Aiming for another blow with my left hand, Seraph kicked my abdomen, launching me aside. She began recovering from the ground right as I stood up as well. Seraph and I charged at each other with nothing but only our combat skills. My fighting abilities were beyond comparison to her. My emotions took control of me and I began bashing her left and right with combinations of kicks. Seraph stood still on her feet, unguarded and weakened.`,
+            options: [[`m52`, `Dragon's Tempest`]]
+        },
+
+        m48: {
+            text: `Grasping her arm to immobilize her as much as I can, I swept her off the ground with a kick, proceeded to chain her to the ground with matter and light magic. I raised my hand up to activate my blade magic. Waves of thousands and thousands of blades formed into the sky. Upon closing my hand into a fist, I slammed it down into Seraph which also brought down the blades. Flashing myself out of the range of blades, I witnessed tons of swords piercing into the ground and Seraph. The pressure from the impact of the blades hitting the ground began causing tremendous amounts of waves to form. As each blade rained down on Seraph, I could hear her scream. When my ability ended, I could see Seraph stand up. She slouched her back, grasping her spear. Hundreds of blades stuck out of her back. <br><br> She began speaking. "Yo. . .Y-you'll pay for this!!" She let out a loud raspy shout. She reached for her headgear and ripped it off. Her white hair drooped over her face, only for me to realize she was majorly faceless but had a mouth only. She dashed forwards towards me, with the swords in her back all shattering to pieces.
+            <br><br> As I dashed forward as engaging her head on, I yelled out, "Today will be your end Seraph!"`,
+            options: [[`m50`, `Crippling Rain`]]
+        },
+
+        m49: {
+            text: `Expelling light magic from within my palm. I jabbed straight at her abdomen and pressed against it. An explosion immediately followed as the shockwave erupted from within her. I imbued the light magic with rapid amounts of it and followed it up with dragon slayer magic as well. The radial amounts of light magic erupted repeatedly while dragon flames burned around her from my palm. I converted my power fully into a single point and thrusted another jab, launching Seraph approximately 15 feet away from me. Seraph began coughing abundantly as she stood up from my attack. She became enraged as she removed her headgear, revealing only a mouth on her face with her hair covering everything else. She dashed towards me and I dashed towards her as well, facing her head on.`,
+            options: [[`m49continue`, `Continue`]]
+        },
+
+        m49continue: {
+            text: `Fabricating all my energy into one longsword, I entrusted my entire power and life into this one move. This trade would determine the fight. I launched off both of my feet and Seraph launched towards me as well. With my blade and spear crossing each other, we delivered the blow. In such a flash, I came to my feet. I dropped my blade, grasping my heart. I dropped straight to the ground. I failed.`,
+            options: [[`gameOver`, `Continue`]]
+        },
+
+        gameOver: {
+            text: `Game Over!`
+        },
+
+        m50: {
+            text: `Turning into a pool of water, I flowed and dashed rapidly, distorting Seraph's vision. I reappeared behind her and shot an arrow enhanced with blade and armament magic point blank range. She turned around to block, but in fact, it was a decoy instead, which trapped her in a body of water. The water trap imprisoned her in a vortex bubble which attatched to her limbs. I was actually in front of her. I reformed my actual body and compressed wind magic in my palm, causing it to rotate violently. I pressed it against Seraph, pushing as hard as I could and sent her flying into the air. "This is the end." I said, and casted a massive arrow created of all my arsenal of magic and shot it at her. On impact the arrow pushed her into the sky even more and bursted into a gigantic explosion which opened a hole through the dark clouds. Feeling Seraph's magic essence disappear, an orb from where she laid dormant. I grabbed it and absorbed it, gaining the all powers she had but did not demonstrate. Standing in victory I decided I would rule over this world. I would gain the peace it deserved and lead it to prosperity.`,
+            options: [[`endingVictoryRule`, `Proceed to Ending`]]
+        },
+
+        m51: {
+            text: `Deciding to end it all, I believed the only solution to take her out instantly would be to convert my entire self to magic and eradicate her. I commanded Astreus Bolg to unleash a swarm of flames to divert her attention. In success, the flames kept Seraph at bay. Using shadow magic, I sunk into the ground and reappeared behind Seraph. I imprisoned her inside a shell of dark magic. Filled in a void of darkness, I stated my last words for. "It's over for you Seraph." Combusting my entire body along with Seraph, a huge mass of elemental magic set off and filled the dark prison with radioactive damage. The dark prison's shell broke apart and the elemental magic bursted out, wiping everything within the vicinity in dust. As my vision returned back after the attack, I saw Seraph turn into ash. I started to disintegrate instantly falling to the ground near Seraph's essence orb. It absorbed within me and I withered away. With what felt like a long nightmare, I opened my eyes. I was in my room. The sunlight shined through my curtains and I thought to myself, that was utterly the most realistic dream I've ever had.`,
+            options: [[`endingVictoryHome`, `Proceed to Ending`]]
+        },
+
+        m52: {
+            text: `Unleashing my foremost and ultimate ability. Dreds of wind formed around my legs, lightning cascaded all over my body, dark flames which emitted light magic and dragon magic formed in a dragon shape, which veiled all over my body with the lightning. In a swift dash propelling myself forward at Seraph, I launched a kick in the air down against Seraph. Seraph blew away, crumbling into light and darkness as lightning expanded throughout the ground, flames dark as night burning away everything in sight. Standing on the battlefield, Seraph no longer reigned. I was victorious! As my duty, I decreed my order, to lead this new world in a world of peace and prosperity.`,
+            options: [['endingVictoryRule', `Proceed to Ending`]]
+        },
+
+        
+
+        m56: {
+            text: `Jumping all the way to the gate in one leap, I landed in front of it. Seeing how measly of a gate it was, I easily pressed against it, blowing it into pieces. I continued to walk forward until a spear out of the unknown came forward at me. Using defensive magic, I created a barrier, reinforced it with an air shield to reduce the spear's momentum. The spear hit my shield, pushing me back a few feet but was deflected at the same time.
+            <br><br>
+            A voice from the open was pronounced, "Hello Hero. I've been waiting for you. Thanks for coming through the front gate, but I don't really appreciate how you blew it to pieces." It was the Seraph. She appeared mysteriously in front of me. She kept a good distance away from still, it would be difficult to close the gap between her and I. <br><br> I grinned a bit and said, "Thanks for letting me in. With a lowly protective gate like this you should've just left it open." Pulling my wolf crested longsword from my spatial magic portal, I unsheathed it and prepared an attack.`,
+            options: [['m44', `Use Blade Magic`], ['m45', 'Summon Astreus Bolg']]
+        }, 
+
+        specialEnding: {
+            text: `Special G̸a̴m̴e̷ ̸O̶v̷e̴r̴!̶ ̴T̶h̶e̴ ̴L̷a̷s̴t̶ ̶L̶a̶u̵g̷h̵`
+        }
+};
     //Variables and function algorithm
     let storyOptions = ['prologue']; //this holds all variables of text and choices
 
@@ -443,6 +527,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         developStory(story.prologue.text); //story will run
         document.body.style.backgroundImage = 'url("images/backgoundHeader.jpg")'
         startOverBtn.style.display = '';
+        console.log('Button working!');
     });
 
     //https://stackoverflow.com/questions/7318462/changing-background-image-with-css3-animations#7319497 BACKGROUND CHANGE REFERENCE
