@@ -36,7 +36,12 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
 
         press: {
             text: `The etched button would disfigure into a hollow pocket which would reveal a dagger laying inside of it. The dagger was well designed with engravings carved over the black alloy handle which extended across the blade. The blade was carbon black, curving towards the top and felt very light but firm. It seemed almost as brand new in the condition it was. I then decided to. . .`,
-        options: [[`a1`, 'Pick up the torch and dagger'], ['a2', 'Pick up the dagger only'], ]
+        options: [[`a1`, 'Pick up the torch and dagger'], ['a2', 'Pick up the dagger only'], ['a3', 'Pick up the torch only'], ['a4', 'Continue walking down the stairs']]
+        },
+
+        noPress: {
+            text: `I decided that pressing the button would be an unwise decision and choose to continue on. I decided to. . .`,
+            options: [['a3', 'Pick up the torch only'], ['a4', 'Continue walking down the stairs']]
         },
 
         a1: {
@@ -121,7 +126,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         d5: {
-            text: `I throw my hands up and catch the blade but the Goblin Knight overpowers me and slashes me regardless. <br> Game Over`,
+            text: `I throw my hands up and catch the blade but the Goblin Knight overpowers me and slashes me regardless. <br><br> Game Over!`,
             options: [[`e1`, `Continue`]]
         },
 
@@ -258,13 +263,19 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m23: {
-            text: "I awoke to find myself completely bandaged on my head and arm near a campfire. Slightly wincing in fatigue, the injuries seemed to have healed almost instantly as I felt only a little pain. I turned my head and left, noticing a small movement." +
-                "<br>" + "'I see you have woken up, hero.' The pink-pray mantis spoke to me emerging from the shadows" +
-                "<br>" + "In response, I said, 'Why do you keep calling me 'hero'? I am just an ordinary person trying to find my way home."
-                + "<br>" + "A branch swings down and the tortoise slides down near the mantis's side. 'Because it is your destiny! It is your destiny to become the hero of this ill-fated world dreaded by that so called 'Divine Goddess'!" +
-                "<br>" + "Following up from what the toirtoise said, the mantis explains, 'The Divine Goddess he is referring to, is the one who brought you here. Perhaps if you seek answers to go back home, she can give it to you. But be wary, she carries a foul omen and only seeks power. Should it come to the point you defeat her, you will return home." +
-                "<br>" + "In a quiet moment of silence, I knelt down, recollecting my thoughts and emotions. If this 'Divine Goddess' hadn't brought me here, I wouldn't have had to struggle fighting for my life and finding a way home. Even with all this power I had, I wouldn't have needed to use it had I not been summoned here. I distinctly let out a face of disgust and annoyance. I let out a shout to release my frustration, lashing a lunar fireball towards the open sky which immediately burned the trees and caused it to petrify within fractions of a second. Taking a deep breathe, I resumed speaking. 'Tell me where this Divine Goddess is."
-                + "<br>" + "The mantis and tortoise both responded, 'Travel west, you will come to a stretched valley where half the land is decimated and the other half is flourished full of green. We thank you hero. Take this dragon orb as a gift as well. It's name is Astreus Bolg.' In the mere moments after they said this to me, they faded into spirals of magic, flowing around my feet and up to my head, slowly sinking into my body. As it naturally came to me, I gained the mantis's offensive abilities and the tortoise's defensive magic which will aid me. Moving forward, I traveled west quickly, using spatial magic to traverse quickly. I approached the valley and land they described to me. Seeing I was in the right place, I ventured continuously down the straight path the border depicted between life and barren land. Coming across to a desolate and ruined gate with no doors or other side, chunks of it had broken off but remained intact still. Etched into one side of the gate, it read, 'forbidden port. . .'",
+            text: `I awoke to find myself completely bandaged on my head and arm near a campfire. Slightly wincing in fatigue, the injuries seemed to have healed almost instantly as I felt only a little pain. I turned my head and left, noticing a small movement.
+            <br><br>
+            "I see you have woken up, hero." The pink-pray mantis spoke to me emerging from the shadows.
+            <br><br>
+            In response, I said, "Why do you keep calling me 'hero'? I am just trying to find a way home."
+            <br><br>
+            A branch swings down and the tortoise slides down near the mantis. "Because it is your destiny! It is your destiny to become the hero of this ill-fated world dreaded by that 'Divine Goddess.'"
+            <br><br>
+            Following up from what the tortoise said, the mantis explains, "The Divine Goddess he is referring to, is the one who brought you here. Perhaps if you seek answers, you can get it from him. But be wary, he carries foul omen and only seeks power. Perhaps if you defeat him as well, you may return home."
+            <br><br>
+            In a quiet moment of silence, I knelt down, recollecting my thoughts and emotions. If this 'Divine Goddess' hadn't brought me here, I wouldn't have to struggle finding my way home. I wouldn't have had to fight with my life with the power that I held. Filled with annoyance and a bit of anger, I lashed out a lunar fireball towards the open trees, burning and immediately petrifying the trees. Taking a deep breath, I resumed speaking. "Tell me where this 'Divine Goddess' lies. I am going to put an end to them."
+            <br><br>
+            With the mantis and tortoise both responding: "Travel west, you will come to a stretched valley where half the land is decimated and the other half is flourished full of green. We thank you hero. Take this dragon orb as a gift as well. It's name is Astreus Bolg." In the mere moments after they said this to me, they faded into spirals of magic, flowing around my feet up to my head and sinking within my body. As it naturally came to me, it just clicked that I could utilize even more offensive and defensive magic. I achieved the same abilities that the mantis and tortoise could use. Remembering their words, I traveled west quickly, using spatial magic to traverse quickly. I approached the valley and land they described to me. Seeing I was in the right place, I ventured continuously down the straight path the border depicted between life and barren land. Coming across to a desolate and ruined gate with no doors or other side, chunks of it had broken off but remained intact still. Etched into one side of the gate, it read: "forbidden port. . ."`,
             options: [[`m37`, `Search Around`], [`m38`, `Investigate the Gate More Closely`]]
         },
 
@@ -352,7 +363,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
 
         m40: {
             text: `Considering my own thoughts and feelings, paying the Divine Goddess a visit would be quite enjoyable. If she is enjoying her reign of rule, I wouldn't mind ruining her godly rule. Deciding to reach where the Divine Goddess was, my body turned into an astral projection. Launching into a burst of light, shards of this new world began recollecting as if it were broken and memories of my own filled into those shards. Within the blink of an eye, I appeared at what seemed to be the Seraphs realm. Standing upon a flat surface of water, its reflection mirrored the sky equally. Stretched into the distance, a castle of white decor covered with gold and silver began closing in my view.`,
-            options: [[`m41`, `Obliterate the Castle`], [`m42`, `Walk through the Front Gate`]]
+            options: [[`m41`, `Obliterate the Castle`], [`m56`, `Walk through the Front Gate`]]
         },
 
         m41: {
@@ -362,40 +373,23 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
 
         m42: {
             text: `I flashed myself next to the Seraph, thrusting my blade into her but failed as she blocked my blade in between her spear tip. As expected of a godly being, it couldn't be that easy to defeat her. As for power however, I'm more than capable of beating her!`,
-            options: [[`m47`, `Release`]]
+            options: [[`m47`, `Release fire and ice magic`], ['m48', 'Rain of Blades'], ['m49', 'Expel Light Magic']]
         },
 
-        m: {
-            text: ``,
-            options: [[`m`, ``]]
+        m56: {
+            text: `Jumping all the way to the gate in one leap, I landed in front of it. Seeing how measly of a gate it was, I easily pressed against it, blowing it into pieces. I continued to walk forward until a spear out of the unknown came forward at me. Using defensive magic, I created a barrier, reinforced it with an air shield to reduce the spear's momentum. The spear hit my shield, pushing me back a few feet but was deflected at the same time.
+            <br><br>
+            A voice from the open was pronounced, "Hello Hero. I've been waiting for you. Thanks for coming through the front gate, but I don't really appreciate how you blew it to pieces." It was the Seraph. She appeared mysteriously in front of me. She kept a good distance away from still, it would be difficult to close the gap between her and I. <br><br> I grinned a bit and said, "Thanks for letting me in. With a lowly protective gate like this you should've just left it open." Pulling my wolf crested longsword from my spatial magic portal, I unsheathed it and prepared an attack.
+            `,
+            options: [['m44', `Use Blade Magic`], ['m45', 'Summon Astreus Bolg']]
         },
 
-        m: {
-            text: ``,
-            options: [[`m`, ``]]
+        m47: {
+            text: 'Bursting flames out from my left hand and ice from my right I created a steam explosion filling the air with rapid heat and distorting my own view as well. As far as I can tell, Seraph took a direct hit from me. Waiting for the next move, Seraph emerged from the steam yelling.',
+            options: [[`continue47`, `Continue`]]
         },
 
-        m: {
-            text: ``,
-            options: [[`m`, ``]]
-        },
-
-        m: {
-            text: ``,
-            options: [[`m`, ``]]
-        },
-
-        m: {
-            text: ``,
-            options: [[`m`, ``]]
-        },
-
-        m: {
-            text: ``,
-            options: [[`m`, ``]]
-        }
-
-    }
+    };
 
     //Variables and function algorithm
     let storyOptions = ['prologue']; //this holds all variables of text and choices
