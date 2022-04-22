@@ -490,7 +490,8 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
 
     //Advise from using innerHTML due to XSS attacks but for this project it should be fine
     function uiButton(uiText, decision) {
-        var button = document.createElement('button'); //creates a button
+        var button = document.createElement('button'); //Creates a button in the UI area
+        button.id = 'optionButton' //Assigns an ID to the button that the function creates
         button.innerHTML = uiText;
         uiButtons.appendChild(button);
         button.addEventListener("click", function () { //When the button is clicked, this action will occur
@@ -529,6 +530,9 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         startOverBtn.style.display = '';
         console.log('Button working!');
     });
+
+    //Button effects: THESE ARE ALL REFERENCED
+    
 
     //https://stackoverflow.com/questions/7318462/changing-background-image-with-css3-animations#7319497 BACKGROUND CHANGE REFERENCE
 }

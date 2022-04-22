@@ -140,9 +140,31 @@ h2 {
 
 button {
     margin: auto auto;
-    height: 50px;
-    width: 100px;
+    height: 100%;
     margin-bottom: 10px;
+    font-size: 25px;
+}
+
+#optionButton:nth-child(1) {
+    width: 200px;
+    height: 250px;
+    position: relative;
+    content: "";
+    background: url("images/invincible-belief-effect.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#optionButton:nth-child(2) {
+    color: blue;
+}
+
+#optionButton:nth-child(3) {
+    color: yellow;
+}
+
+#optionButton:nth-child(4) {
+    color: green;
 }
 
 .enterButton {
