@@ -251,8 +251,8 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         },
 
         m19: {
-            text: `I unleashed a full on magical attack, which scales out and flashes from my hands. With no control over my magic, all elements of fire, earth, wind, water, light, shadow, and matter combust in a spiral flash, slowly disintegrating the area along with myself. With one last look as you collapse to the floor feeling your essence turn to dust, the prey-mantis and tortoise vividly crumble to dust. You defeated them.`
-            options: ``
+            text: `I unleashed a full on magical attack, which scales out and flashes from my hands. With no control over my magic, all elements of fire, earth, wind, water, light, shadow, and matter combust in a spiral flash, slowly disintegrating the area along with myself. With one last look as you collapse to the floor feeling your essence turn to dust, the prey-mantis and tortoise vividly crumble to dust. You defeated them.`,
+            options: [`specialEnding`, `Continue`]
         },
 
 
