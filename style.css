@@ -1,12 +1,18 @@
 * {
     font-family: 'Inria Serif', serif;
-    text-align: center;
+
     margin: auto auto;
 }
 
 body {
     background-color: rgb(22, 22, 22);
     color: white;
+}
+
+#main-background {
+    width: 100%;
+    height: 100%;
+    /*https://www.youtube.com/watch?v=IwEqvjsDVU0*/
 }
 
 .main-header-content {
@@ -122,6 +128,11 @@ header {
 .storySection {
     font-size: 4em;
     padding: 50px;
+    text-align: center;
+}
+
+.buttonDesign {
+    text-align: center;
 }
 
 .authors {
@@ -213,13 +224,23 @@ a {
 }
 
 #uiArea {
+    display: flex;
+    flex: none;
+    overflow: hidden;
+    margin: auto auto;
     font-size: 35px;
     padding: 50px;
+    justify-content: left;
+    text-align: left;
 }
 
 #uiButtons {
     display: flex;
     justify-content: space-around;
+}
+
+#startOver{
+    text-align: center;
 }
 
 .circle {

@@ -1,8 +1,4 @@
 window.onload = function () {//Directly checks to ensure JavaScript loads first before any code is processed. (This part of code is referenced by Choice of Adventure replit) (https://interactive-story-cartwebapp-8.cartwebapp.repl.co/)
-    const player = {
-        name: "" //The name of the reader/player
-    }
-
     const story = {//story cointainer
         prologue: {
             text: "Under the midnight moon, slumber awaits for me as I return back home to my apartment. I rattle the key to which unlocks my front door out of my pocket and gently insert it into the keyhole. As I opened the door, the lights blinkered on with my AI system welcoming me home.",
@@ -271,7 +267,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
 
         m19: {
             text: `I unleashed a full on magical attack, which scales out and flashes from my hands. With no control over my magic, all elements of fire, earth, wind, water, light, shadow, and matter combust in a spiral flash, slowly disintegrating the area along with myself. With one last look as you collapse to the floor feeling your essence turn to dust, the prey-mantis and tortoise vividly crumble to dust. You defeated them.`,
-            options: [`specialEnding`, `Continue`]
+            options: [[`specialEnding`, `Continue`]]
         },
 
 
@@ -545,7 +541,6 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
 
     enterBtn.addEventListener("click", function () {
         developStory(story.prologue.text); //story will run
-        document.body.style.backgroundImage = 'url("images/backgoundHeader.jpg")'
         startOverBtn.style.display = '';
         console.log('Button working!');
     });
