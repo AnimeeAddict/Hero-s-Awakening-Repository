@@ -51,22 +51,37 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
 
         a2: {
             text: `I picked up the dagger and proceeded down the stairs. Seeing that the gate was held by a rusty old chain only, I used the handle of the dagger to budge at it. Swiftly striking the chain scattered it into dust and the gate creaked open. I cautiously continued on.`,
-            options: [[`miniBossFight1`, `Proceed Cautiously`]]
+            options: [[`miniBossFightA2`, `Proceed Cautiously`]]
         },
 
         a3: {
             text: `I picked up the torch and walked down the stairs to the gate. I saw that the gate was held only by a rusted chain which looked deteriorated. Seeing how using the torch would snap the wooden body, I decided to place the flame among the chain. The chain progressively turned molten red, indicating it was weak to break. I took a step back, making certain my foot was well layered or encased in somewhat protection. I gave a strong kick to the chain and it snapped into dust. Seeing that the kick also broke the gate down, I proceeded carefully.`,
-            options: [[`miniBossFight1`, `Proceed Cautiously`]]
+            options: [[`miniBossFightA3`, `Proceed Cautiously`]]
         },
 
         a4: {
             text: `I leave them there and continue walking down the stairs to the gate. The gate had no keyholes or any entry, but an old rusted chain. I rattled the gate a bit to see if it would open. Considering how powder dusted off the chain a bit, I thought to myself that it might be weak enough to snap. Taking a step back, I lunged forward sweeping my leg up into a frontal kick. Thrusting my leg into the gate, the chain rattled a bit. I checked and it definitely cracked a bit. Taking another lean back, I repeated the same kick and succeeded in opening the gate. The gate kicked open and the chain snapped and slithered down to the ground. Taking a few breaths after exhausting myself over the two kicks, I noticed a long cut on my leg. It rather stung and I winced in a slight groan of pain. I had no bandages or such to close the bleeding. Either way, I proceeded down the stairs cautiously.`,
-            options: [[`miniBossFight1`, `Proceed Cautiously`]]
+            options: [[`miniBossFightA4`, `Proceed Cautiously`]]
         },
 
         miniBossFight1: {
             text: `As you proceed down the stairs into a large room the size of a gym, the light from above starts disappearing. The only light shown is emitted from your torch. Surrounded by the darkness, a large circle glows bright white below my feet. The circle was connected by a triangle within the center and had lines that smuggled out. From the opposite of me, a large creature emerged from the rune. It appeared to be a goblin knight with a long sword. The longsword appeared to have a wolf crest on its hilt with silver guards curving out. Its blade began turning purple and the goblin knight lunged at me, angling the blade and aiming towards my lower abdominal on its right side.`,
             options: [[`c1`, `Lunge Forward and Attempt to Counter Attack with the Torch`], [`c2`, `Dodge and Step to the Left`], [`c3`, `Dodge and Step to the Right`], [`c4`, `Lunge Forward and Attempt to Counter Attack with the Dagger`]]
+        },
+
+        miniBossFightA2: {
+            text: `As you proceed down the stairs into a large room the size of a gym, the light from above starts disappearing. The only light shown is emitted from your torch. Surrounded by the darkness, a large circle glows bright white below my feet. The circle was connected by a triangle within the center and had lines that smuggled out. From the opposite of me, a large creature emerged from the rune. It appeared to be a goblin knight with a long sword. The longsword appeared to have a wolf crest on its hilt with silver guards curving out. Its blade began turning purple and the goblin knight lunged at me, angling the blade and aiming towards my lower abdominal on its right side.`,
+            options: [[`c2`, `Dodge and Step to the Left`], [`c3`, `Dodge and Step to the Right`], [`c4`, `Lunge Forward and Attempt to Counter Attack with the Dagger`]]
+        },
+
+        miniBossFightA3: {
+            text: `As you proceed down the stairs into a large room the size of a gym, the light from above starts disappearing. The only light shown is emitted from your torch. Surrounded by the darkness, a large circle glows bright white below my feet. The circle was connected by a triangle within the center and had lines that smuggled out. From the opposite of me, a large creature emerged from the rune. It appeared to be a goblin knight with a long sword. The longsword appeared to have a wolf crest on its hilt with silver guards curving out. Its blade began turning purple and the goblin knight lunged at me, angling the blade and aiming towards my lower abdominal on its right side.`,
+            options: [[`c1`, `Lunge Forward and Attempt to Counter Attack with the Torch`], [`c2`, `Dodge and Step to the Left`], [`c3`, `Dodge and Step to the Right`]]
+        },
+
+        miniBossFightA4: {
+            text: `As you proceed down the stairs into a large room the size of a gym, the light from above starts disappearing. The only light shown is emitted from your torch. Surrounded by the darkness, a large circle glows bright white below my feet. The circle was connected by a triangle within the center and had lines that smuggled out. From the opposite of me, a large creature emerged from the rune. It appeared to be a goblin knight with a long sword. The longsword appeared to have a wolf crest on its hilt with silver guards curving out. Its blade began turning purple and the goblin knight lunged at me, angling the blade and aiming towards my lower abdominal on its right side.`,
+            options: [[`c2`, `Dodge and Step to the Left`], [`c3`, `Dodge and Step to the Right`]]
         },
 
         c1: {
@@ -121,7 +136,11 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
 
         d3: {
             text: `Raise up the torch to block the incoming attack from the Goblin Knight. For the mere moment, time slowed down, and I vividly saw as the blade slashed my torch in half and striked me.`,
-            options: [[`e1`, `Continue`]]
+            options: [[`d3End`, `Continue`]]
+        },
+
+        d3End: {
+            text: `Game Over!`,
         },
 
         d4: {
