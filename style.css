@@ -157,13 +157,15 @@ button {
 }
 
 #optionButton:nth-child(1) {
-    width: 200px;
-    height: 250px;
+    width: 150px;
+    height: 175px;
     position: relative;
     content: "";
-    background: url("images/invincible-belief-effect.gif");
+    background: url("images/Animated_fire_by_nevit.gif") rgb(0, 0, 0, 5);
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    filter: blur(25px);
 }
 
 #optionButton:nth-child(2) {
@@ -171,7 +173,7 @@ button {
 }
 
 #optionButton:nth-child(3) {
-    color: yellow;
+    color: red;
 }
 
 #optionButton:nth-child(4) {
