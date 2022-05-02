@@ -161,23 +161,43 @@ button {
     height: 175px;
     position: relative;
     content: "";
-    background: url("images/Animated_fire_by_nevit.gif") rgb(0, 0, 0, 5);
+    background: url("images/Gif.gif") rgb(0, 0, 0, 5);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    filter: blur(25px);
 }
 
 #optionButton:nth-child(2) {
-    color: blue;
+    width: 150px;
+    height: 175px;
+    position: relative;
+    content: "";
+    background: url("images/Gif.gif") rgb(0, 0, 0, 5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 #optionButton:nth-child(3) {
-    color: red;
+    width: 150px;
+    height: 175px;
+    position: relative;
+    content: "";
+    background: url("images/Gif.gif") rgb(0, 0, 0, 5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 #optionButton:nth-child(4) {
-    color: green;
+    width: 150px;
+    height: 175px;
+    position: relative;
+    content: "";
+    background: url("images/Gif.gif") rgb(0, 0, 0, 5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 .enterButton {
