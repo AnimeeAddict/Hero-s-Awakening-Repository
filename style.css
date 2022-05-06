@@ -352,7 +352,7 @@ svg {
     margin: 1rem;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 390px) {
     body {
         color: white;
         font-size: 5px;
@@ -362,12 +362,20 @@ svg {
         padding: 1rem;
     }
 
+    #overview {
+        font-size: 25%;
+    }
+
     header {
         max-width: 700px;
     }
 
     .circle {
-        position: relative;
+        width: 25%;
+    }
+
+    .buttonDesign {
+        width: 25%;
     }
     
 
@@ -406,5 +414,9 @@ svg {
 
     #choice-counter {
         font-size: .5rem;
+    }
+
+    svg {
+        max-width: 25%;
     }
 }
