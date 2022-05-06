@@ -161,10 +161,12 @@ button {
     height: 175px;
     position: relative;
     content: "";
-    background: url("images/Gif.gif") rgb(0, 0, 0, 5);
-    background-repeat: no-repeat;
+    background: url("images/black-background-cool.gif") rgb(0, 0, 0, 5);
+    background-repeat: repeat;
     background-size: cover;
     color: white;
+    background-position: center;
+    box-shadow: 2px 2px 20px white;
 }
 
 #optionButton:nth-child(2) {
@@ -172,10 +174,12 @@ button {
     height: 175px;
     position: relative;
     content: "";
-    background: url("images/Gif.gif") rgb(0, 0, 0, 5);
-    background-repeat: no-repeat;
+    background: url("images/black-background-cool.gif") rgb(0, 0, 0, 5);
+    background-repeat: repeat;
     background-size: cover;
     color: white;
+    background-position: center;
+    box-shadow: 2px 2px 20px white;
 }
 
 #optionButton:nth-child(3) {
@@ -183,10 +187,13 @@ button {
     height: 175px;
     position: relative;
     content: "";
-    background: url("images/Gif.gif") rgb(0, 0, 0, 5);
-    background-repeat: no-repeat;
+    background: url("images/black-background-cool.gif") rgb(0, 0, 0, 5);
+    background-repeat: repeat;
     background-size: cover;
     color: white;
+    background-position: center;
+    box-shadow: 2px 2px 20px white;
+    height: 15rem;
 }
 
 #optionButton:nth-child(4) {
@@ -194,10 +201,12 @@ button {
     height: 175px;
     position: relative;
     content: "";
-    background: url("images/Gif.gif") rgb(0, 0, 0, 5);
-    background-repeat: no-repeat;
+    background: url("images/black-background-cool.gif") rgb(0, 0, 0, 5);
+    background-repeat: repeat;
     background-size: cover;
     color: white;
+    background-position: center;
+    box-shadow: 2px 2px 20px white;
 }
 
 .enterButton {
@@ -332,4 +341,13 @@ a {
 svg {
     width: 0;
     height: 0;
+}
+
+.decisionCount {
+    color: white;
+    background-color: white; 
+}
+
+#choice-counter {
+    margin: 1rem;
 }

@@ -500,6 +500,7 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
     var overview = document.getElementById('overview');
     var uiArea = document.getElementById('uiArea'); //Area where users will interact
     var uiButtons = document.getElementById('uiButtons'); //Buttons for users
+    var counterArea = document.getElementById('choice-counter')
     const body = document.body; //Body variable to access background change
     const colors = ['backgoundHeader.jpg', 'red', 'blue']; //Background changer
 
@@ -511,8 +512,22 @@ window.onload = function () {//Directly checks to ensure JavaScript loads first 
         uiButtons.appendChild(button);
         button.addEventListener("click", function () { //When the button is clicked, this action will occur
             storyOptions.push(decision);
+            choiceCounter();
             developStory();
         });
+    }
+
+    //Choice counter
+    function choiceCounter() {
+        let count = "" //Options clicked before
+        for (var i = 1; i < storyOptions.length; i++) {
+            decisionCount.innerHTML = (count + '<br>' + storyOptions[i])
+            count = decisionCount.innerHTML;
+        }
+    }
+
+    function choicePush(count) {
+        counterArea.innerHTML = count;
     }
 
     function storyPush(text) {
