@@ -365,6 +365,7 @@ svg {
 
     .storySection {
         padding: 1rem;
+        font-size: 2.5rem;
     }
 
     #overview {
@@ -376,11 +377,11 @@ svg {
     }
 
     .circle {
-        zoom: 0.7;
+        zoom: 0.5;
     }
 
     .buttonText {
-        padding-bottom: 7rem;
+        padding-bottom: 12rem;
     }
 
     .buttonTextSpan {
