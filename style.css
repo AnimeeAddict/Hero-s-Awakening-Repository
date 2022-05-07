@@ -371,11 +371,15 @@ svg {
     }
 
     .circle {
-        width: 25%;
+        zoom: 0.7;
     }
 
-    .buttonDesign {
-        width: 25%;
+    .buttonText {
+        padding-bottom: 7rem;
+    }
+
+    .buttonTextSpan {
+        zoom: 0.5;
     }
     
 
